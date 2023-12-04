@@ -54,6 +54,7 @@ func concatSignatures(
 	signatures []xdr.DecoratedSignature,
 	kps ...*keypair.Full,
 ) ([]xdr.DecoratedSignature, error) {
+	fmt.Printf("\n\nPre Sigs: %v\n\n", signatures)
 	// Hash the transaction
 	h, err := network.HashTransactionInEnvelope(e, networkStr)
 	if err != nil {
@@ -291,8 +292,8 @@ func (t *Transaction) clone(signatures []xdr.DecoratedSignature) *Transaction {
 	return newTx
 }
 
-func (t *Transaction) GetEnvelope() *xdr.TransactionEnvelope {
-	return &t.envelope
+func (t *Transaction) GetEnvelope() xdr.TransactionEnvelope {
+	return t.envelope
 }
 
 func (t *Transaction) SetEnvelope(env xdr.TransactionEnvelope) {
