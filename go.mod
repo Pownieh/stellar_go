@@ -1,4 +1,4 @@
-module github.com/stellar/go
+module github.com/pownieh/stellar_go
 
 go 1.20
 
