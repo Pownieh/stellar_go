@@ -4,13 +4,13 @@ import (
 	"context"
 	"net/http"
 
+	"github.com/pownieh/stellar_go/protocols/horizon"
 	horizonContext "github.com/pownieh/stellar_go/services/horizon/internal/context"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
 	"github.com/pownieh/stellar_go/services/horizon/internal/ledger"
 	"github.com/pownieh/stellar_go/services/horizon/internal/resourceadapter"
-	"github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/render/hal"
+	"github.com/pownieh/stellar_go/support/errors"
+	"github.com/pownieh/stellar_go/support/render/hal"
 )
 
 // AccountOffersQuery query struct for offers end-point

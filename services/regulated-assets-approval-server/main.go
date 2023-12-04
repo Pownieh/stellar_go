@@ -1,10 +1,10 @@
 package main
 
 import (
+	"github.com/pownieh/stellar_go/services/regulated-assets-approval-server/cmd"
+	"github.com/pownieh/stellar_go/support/log"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
-	"github.com/stellar/go/services/regulated-assets-approval-server/cmd"
-	"github.com/stellar/go/support/log"
 )
 
 func main() {

@@ -9,7 +9,7 @@ import (
 
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
 	"github.com/pownieh/stellar_go/services/horizon/internal/ledger"
-	"github.com/stellar/go/support/db"
+	"github.com/pownieh/stellar_go/support/db"
 )
 
 // System represents the history reaping subsystem of horizon.

@@ -12,16 +12,16 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
+	"github.com/pownieh/stellar_go/clients/stellarcore"
+	"github.com/pownieh/stellar_go/historyarchive"
+	"github.com/pownieh/stellar_go/ingest"
+	"github.com/pownieh/stellar_go/ingest/ledgerbackend"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
 	"github.com/pownieh/stellar_go/services/horizon/internal/ingest/filters"
-	"github.com/stellar/go/clients/stellarcore"
-	"github.com/stellar/go/historyarchive"
-	"github.com/stellar/go/ingest"
-	"github.com/stellar/go/ingest/ledgerbackend"
-	apkg "github.com/stellar/go/support/app"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/errors"
-	logpkg "github.com/stellar/go/support/log"
+	apkg "github.com/pownieh/stellar_go/support/app"
+	"github.com/pownieh/stellar_go/support/db"
+	"github.com/pownieh/stellar_go/support/errors"
+	logpkg "github.com/pownieh/stellar_go/support/log"
 )
 
 const (

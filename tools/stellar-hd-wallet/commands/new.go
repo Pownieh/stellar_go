@@ -3,8 +3,8 @@ package commands
 import (
 	"strings"
 
+	"github.com/pownieh/stellar_go/support/errors"
 	"github.com/spf13/cobra"
-	"github.com/stellar/go/support/errors"
 	"github.com/tyler-smith/go-bip39"
 )
 

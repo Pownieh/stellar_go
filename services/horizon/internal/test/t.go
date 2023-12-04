@@ -13,9 +13,9 @@ import (
 	"github.com/pownieh/stellar_go/services/horizon/internal/operationfeestats"
 	tdb "github.com/pownieh/stellar_go/services/horizon/internal/test/db"
 	"github.com/pownieh/stellar_go/services/horizon/internal/test/scenarios"
+	"github.com/pownieh/stellar_go/support/db"
+	"github.com/pownieh/stellar_go/support/render/hal"
 	"github.com/sirupsen/logrus"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/render/hal"
 )
 
 // CoreSession returns a db.Session instance pointing at the stellar core test database

@@ -17,8 +17,8 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/stellar/go/protocols/stellarcore"
-	"github.com/stellar/go/support/log"
+	"github.com/pownieh/stellar_go/protocols/stellarcore"
+	"github.com/pownieh/stellar_go/support/log"
 )
 
 type stellarCoreRunnerInterface interface {
@@ -121,9 +121,9 @@ func (r *stellarCoreRunner) getFullStoragePath() string {
 		return path.Join(r.storagePath, "captive-core-"+createRandomHexString(8))
 	} else {
 		// Use the specified directory to store Captive Core's data:
-		//    https://github.com/stellar/go/issues/3437
+		//    https://github.com/pownieh/stellar_go/issues/3437
 		// but be sure to re-use rather than replace it:
-		//    https://github.com/stellar/go/issues/3631
+		//    https://github.com/pownieh/stellar_go/issues/3631
 		return path.Join(r.storagePath, "captive-core")
 	}
 }

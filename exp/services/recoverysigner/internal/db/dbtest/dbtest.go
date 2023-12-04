@@ -5,8 +5,8 @@ import (
 	"runtime"
 	"testing"
 
+	"github.com/pownieh/stellar_go/support/db/dbtest"
 	migrate "github.com/rubenv/sql-migrate"
-	"github.com/stellar/go/support/db/dbtest"
 )
 
 func OpenWithoutMigrations(t *testing.T) *dbtest.DB {

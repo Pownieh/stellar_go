@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	"github.com/pownieh/stellar_go/services/horizon/internal/codes"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 var (

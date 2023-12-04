@@ -3,8 +3,8 @@ package strkey
 import (
 	"bytes"
 
+	"github.com/pownieh/stellar_go/support/errors"
 	xdr "github.com/stellar/go-xdr/xdr3"
-	"github.com/stellar/go/support/errors"
 )
 
 type SignedPayload struct {

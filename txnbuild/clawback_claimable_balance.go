@@ -2,8 +2,8 @@
 package txnbuild
 
 import (
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/support/errors"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 // ClawbackClaimableBalance represents the Stellar clawback claimable balance operation. See

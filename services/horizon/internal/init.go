@@ -8,14 +8,14 @@ import (
 	"github.com/getsentry/raven-go"
 	"github.com/prometheus/client_golang/prometheus"
 
+	"github.com/pownieh/stellar_go/exp/orderbook"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
 	"github.com/pownieh/stellar_go/services/horizon/internal/ingest"
 	"github.com/pownieh/stellar_go/services/horizon/internal/paths"
 	"github.com/pownieh/stellar_go/services/horizon/internal/simplepath"
 	"github.com/pownieh/stellar_go/services/horizon/internal/txsub"
-	"github.com/stellar/go/exp/orderbook"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/log"
+	"github.com/pownieh/stellar_go/support/db"
+	"github.com/pownieh/stellar_go/support/log"
 )
 
 func mustNewDBSession(subservice db.Subservice, databaseURL string, maxIdle, maxOpen int, registry *prometheus.Registry, clientConfigs ...db.ClientConfig) db.SessionInterface {

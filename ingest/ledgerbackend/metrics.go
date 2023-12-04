@@ -6,7 +6,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 // WithMetrics decorates the given LedgerBackend with metrics

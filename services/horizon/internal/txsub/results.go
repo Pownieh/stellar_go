@@ -3,8 +3,8 @@ package txsub
 import (
 	"context"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/support/errors"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 func txResultByHash(ctx context.Context, db HorizonDB, hash string) (history.Transaction, error) {

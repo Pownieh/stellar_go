@@ -6,14 +6,14 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/pownieh/stellar_go/ingest"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
 	"github.com/pownieh/stellar_go/services/horizon/internal/ingest/filters"
 	"github.com/pownieh/stellar_go/services/horizon/internal/ingest/processors"
-	"github.com/stellar/go/ingest"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/errors"
-	logpkg "github.com/stellar/go/support/log"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/support/db"
+	"github.com/pownieh/stellar_go/support/errors"
+	logpkg "github.com/pownieh/stellar_go/support/log"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 type ingestionSource int

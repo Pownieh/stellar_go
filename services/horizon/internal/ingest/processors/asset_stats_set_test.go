@@ -6,13 +6,13 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/stellar/go/keypair"
+	"github.com/pownieh/stellar_go/keypair"
 
 	"github.com/stretchr/testify/assert"
 
+	"github.com/pownieh/stellar_go/ingest"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/ingest"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 func TestEmptyAssetStatSet(t *testing.T) {

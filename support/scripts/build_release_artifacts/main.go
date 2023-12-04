@@ -12,8 +12,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/log"
+	"github.com/pownieh/stellar_go/support/errors"
+	"github.com/pownieh/stellar_go/support/log"
 )
 
 var extractBinName = regexp.MustCompile(`^(?P<bin>[a-z0-9-]+)-(?P<tag>.+)$`)
@@ -103,7 +103,7 @@ func build(pkg, dest, version, buildOS, buildArch string) {
 	rev := runOutput("git", "rev-parse", "HEAD")
 	versionString := version[1:] // Remove letter `v`
 	versionFlag := fmt.Sprintf(
-		"-X=github.com/stellar/go/support/app.version=%s-%s",
+		"-X=github.com/pownieh/stellar_go/support/app.version=%s-%s",
 		versionString, rev,
 	)
 

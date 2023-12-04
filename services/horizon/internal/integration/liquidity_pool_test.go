@@ -6,14 +6,14 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
+	"github.com/pownieh/stellar_go/amount"
+	"github.com/pownieh/stellar_go/clients/horizonclient"
+	"github.com/pownieh/stellar_go/keypair"
+	"github.com/pownieh/stellar_go/protocols/horizon/effects"
+	"github.com/pownieh/stellar_go/protocols/horizon/operations"
 	"github.com/pownieh/stellar_go/services/horizon/internal/test/integration"
-	"github.com/stellar/go/amount"
-	"github.com/stellar/go/clients/horizonclient"
-	"github.com/stellar/go/keypair"
-	"github.com/stellar/go/protocols/horizon/effects"
-	"github.com/stellar/go/protocols/horizon/operations"
-	"github.com/stellar/go/txnbuild"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/txnbuild"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 func TestLiquidityPoolHappyPath(t *testing.T) {

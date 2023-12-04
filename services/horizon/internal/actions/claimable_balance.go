@@ -5,16 +5,16 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/pownieh/stellar_go/protocols/horizon"
+	protocol "github.com/pownieh/stellar_go/protocols/horizon"
 	horizonContext "github.com/pownieh/stellar_go/services/horizon/internal/context"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
 	"github.com/pownieh/stellar_go/services/horizon/internal/ledger"
 	"github.com/pownieh/stellar_go/services/horizon/internal/resourceadapter"
-	"github.com/stellar/go/protocols/horizon"
-	protocol "github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/render/hal"
-	"github.com/stellar/go/support/render/problem"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/support/errors"
+	"github.com/pownieh/stellar_go/support/render/hal"
+	"github.com/pownieh/stellar_go/support/render/problem"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 // GetClaimableBalanceByIDHandler is the action handler for all end-points returning a claimable balance.

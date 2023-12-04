@@ -10,20 +10,20 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
+	"github.com/pownieh/stellar_go/clients/horizonclient"
+	"github.com/pownieh/stellar_go/historyarchive"
+	"github.com/pownieh/stellar_go/ingest/ledgerbackend"
+	"github.com/pownieh/stellar_go/keypair"
+	horizoncmd "github.com/pownieh/stellar_go/services/horizon/cmd"
 	horizon "github.com/pownieh/stellar_go/services/horizon/internal"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/schema"
 	"github.com/pownieh/stellar_go/services/horizon/internal/test/integration"
-	"github.com/stellar/go/clients/horizonclient"
-	"github.com/stellar/go/historyarchive"
-	"github.com/stellar/go/ingest/ledgerbackend"
-	"github.com/stellar/go/keypair"
-	horizoncmd "github.com/stellar/go/services/horizon/cmd"
-	"github.com/stellar/go/support/collections/set"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/db/dbtest"
-	"github.com/stellar/go/txnbuild"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/support/collections/set"
+	"github.com/pownieh/stellar_go/support/db"
+	"github.com/pownieh/stellar_go/support/db/dbtest"
+	"github.com/pownieh/stellar_go/txnbuild"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 func submitLiquidityPoolOps(itest *integration.Test, tt *assert.Assertions) (submittedOperations []txnbuild.Operation, lastLedger int32) {

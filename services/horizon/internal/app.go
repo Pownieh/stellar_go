@@ -14,6 +14,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
+	"github.com/pownieh/stellar_go/clients/stellarcore"
 	"github.com/pownieh/stellar_go/services/horizon/internal/corestate"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
 	"github.com/pownieh/stellar_go/services/horizon/internal/httpx"
@@ -23,12 +24,11 @@ import (
 	"github.com/pownieh/stellar_go/services/horizon/internal/paths"
 	"github.com/pownieh/stellar_go/services/horizon/internal/reap"
 	"github.com/pownieh/stellar_go/services/horizon/internal/txsub"
-	"github.com/stellar/go/clients/stellarcore"
-	"github.com/stellar/go/support/app"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/log"
-	"github.com/stellar/go/support/logmetrics"
+	"github.com/pownieh/stellar_go/support/app"
+	"github.com/pownieh/stellar_go/support/db"
+	"github.com/pownieh/stellar_go/support/errors"
+	"github.com/pownieh/stellar_go/support/log"
+	"github.com/pownieh/stellar_go/support/logmetrics"
 )
 
 // App represents the root of the state of a horizon instance.

@@ -5,13 +5,13 @@ package processors
 import (
 	"testing"
 
-	"github.com/stellar/go/protocols/horizon/base"
+	"github.com/pownieh/stellar_go/protocols/horizon/base"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 
+	"github.com/pownieh/stellar_go/ingest"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/ingest"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 func TestTransactionOperationID(t *testing.T) {
@@ -1502,7 +1502,7 @@ func getSponsoredSandwichWrappers() []*transactionOperationWrapper {
 
 	sponsorMuxed := sponsor
 	// Do not provide the source explicitly so that the transaction source is used
-	// It tests https://github.com/stellar/go/issues/2982 .
+	// It tests https://github.com/pownieh/stellar_go/issues/2982 .
 	// tx.Envelope.Operations()[0].SourceAccount = &sponsorMuxed
 	tx.Envelope.Operations()[0].SourceAccount = nil
 	tx.Envelope.V1.Tx.SourceAccount = sponsorMuxed

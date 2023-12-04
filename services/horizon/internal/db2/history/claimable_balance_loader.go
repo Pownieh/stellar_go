@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/stellar/go/support/collections/set"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/ordered"
+	"github.com/pownieh/stellar_go/support/collections/set"
+	"github.com/pownieh/stellar_go/support/db"
+	"github.com/pownieh/stellar_go/support/errors"
+	"github.com/pownieh/stellar_go/support/ordered"
 )
 
 // FutureClaimableBalanceID represents a future history claimable balance.
@@ -123,7 +123,7 @@ func (a *ClaimableBalanceLoader) Exec(ctx context.Context, session db.SessionInt
 	}
 	ids = ids[:insert]
 	// sort entries before inserting rows to prevent deadlocks on acquiring a ShareLock
-	// https://github.com/stellar/go/issues/2370
+	// https://github.com/pownieh/stellar_go/issues/2370
 	sort.Strings(ids)
 
 	err := bulkInsert(

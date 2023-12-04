@@ -15,11 +15,11 @@ import (
 	"strings"
 	"time"
 
+	"github.com/pownieh/stellar_go/services/keystore"
+	"github.com/pownieh/stellar_go/support/collections/set"
+	"github.com/pownieh/stellar_go/support/log"
 	migrate "github.com/rubenv/sql-migrate"
 	"github.com/sirupsen/logrus"
-	"github.com/stellar/go/services/keystore"
-	"github.com/stellar/go/support/collections/set"
-	"github.com/stellar/go/support/log"
 
 	_ "github.com/lib/pq"
 )

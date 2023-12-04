@@ -5,8 +5,8 @@ import (
 
 	sq "github.com/Masterminds/squirrel"
 
+	"github.com/pownieh/stellar_go/keypair"
 	"github.com/pownieh/stellar_go/services/horizon/internal/test"
-	"github.com/stellar/go/keypair"
 )
 
 func TestAddOperationParticipants(t *testing.T) {

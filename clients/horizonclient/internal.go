@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/stellar/go/support/clock"
-	"github.com/stellar/go/support/errors"
+	"github.com/pownieh/stellar_go/support/clock"
+	"github.com/pownieh/stellar_go/support/errors"
 )
 
 // decodeResponse decodes the response from a request to a horizon server

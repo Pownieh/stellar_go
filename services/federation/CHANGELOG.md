@@ -39,4 +39,4 @@ bumps.  A breaking change will get clearly notified in this log.
 
 Initial release after import from https://github.com/stellar/federation
 
-[Unreleased]: https://github.com/stellar/go/compare/federation-v0.2.0...master
+[Unreleased]: https://github.com/pownieh/stellar_go/compare/federation-v0.2.0...master

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"go/format"
 
+	"github.com/pownieh/stellar_go/support/errors"
+	"github.com/pownieh/stellar_go/xdr"
 	"github.com/spf13/cobra"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
 )
 
 var (

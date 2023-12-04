@@ -6,11 +6,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/stellar/go/keypair"
-	"github.com/stellar/go/strkey"
-	supportlog "github.com/stellar/go/support/log"
-	"github.com/stellar/go/support/render/httpjson"
-	"github.com/stellar/go/txnbuild"
+	"github.com/pownieh/stellar_go/keypair"
+	"github.com/pownieh/stellar_go/strkey"
+	supportlog "github.com/pownieh/stellar_go/support/log"
+	"github.com/pownieh/stellar_go/support/render/httpjson"
+	"github.com/pownieh/stellar_go/txnbuild"
 )
 
 // ChallengeHandler implements the SEP-10 challenge endpoint and handles

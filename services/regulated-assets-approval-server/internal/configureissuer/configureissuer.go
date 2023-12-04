@@ -5,13 +5,13 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/stellar/go/clients/horizonclient"
-	"github.com/stellar/go/keypair"
-	"github.com/stellar/go/network"
-	"github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/log"
-	"github.com/stellar/go/txnbuild"
+	"github.com/pownieh/stellar_go/clients/horizonclient"
+	"github.com/pownieh/stellar_go/keypair"
+	"github.com/pownieh/stellar_go/network"
+	"github.com/pownieh/stellar_go/protocols/horizon"
+	"github.com/pownieh/stellar_go/support/errors"
+	"github.com/pownieh/stellar_go/support/log"
+	"github.com/pownieh/stellar_go/txnbuild"
 )
 
 type Options struct {

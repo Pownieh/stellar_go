@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/stellar/go/clients/horizonclient"
-	hProtocol "github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/render/problem"
+	"github.com/pownieh/stellar_go/clients/horizonclient"
+	hProtocol "github.com/pownieh/stellar_go/protocols/horizon"
+	"github.com/pownieh/stellar_go/support/errors"
+	"github.com/pownieh/stellar_go/support/render/problem"
 	"github.com/stretchr/testify/require"
 )
 

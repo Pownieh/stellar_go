@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	"github.com/pownieh/stellar_go/strkey/internal/crc16"
-	"github.com/stellar/go/support/errors"
+	"github.com/pownieh/stellar_go/support/errors"
 )
 
 // ErrInvalidVersionByte is returned when the version byte from a provided

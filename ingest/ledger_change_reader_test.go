@@ -10,9 +10,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/stellar/go/ingest/ledgerbackend"
-	"github.com/stellar/go/network"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/ingest/ledgerbackend"
+	"github.com/pownieh/stellar_go/network"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 const (

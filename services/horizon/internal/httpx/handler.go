@@ -11,11 +11,11 @@ import (
 	"github.com/pownieh/stellar_go/services/horizon/internal/render"
 	hProblem "github.com/pownieh/stellar_go/services/horizon/internal/render/problem"
 	"github.com/pownieh/stellar_go/services/horizon/internal/render/sse"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/render/hal"
-	"github.com/stellar/go/support/render/httpjson"
-	"github.com/stellar/go/support/render/problem"
+	"github.com/pownieh/stellar_go/support/db"
+	"github.com/pownieh/stellar_go/support/errors"
+	"github.com/pownieh/stellar_go/support/render/hal"
+	"github.com/pownieh/stellar_go/support/render/httpjson"
+	"github.com/pownieh/stellar_go/support/render/problem"
 )
 
 type objectAction interface {

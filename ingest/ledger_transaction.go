@@ -3,8 +3,8 @@ package ingest
 import (
 	"fmt"
 
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/support/errors"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 // LedgerTransaction represents the data for a single transaction within a ledger.
@@ -47,7 +47,7 @@ func (t *LedgerTransaction) GetChanges() ([]Change, error) {
 		txChanges := GetChangesFromLedgerEntryChanges(v1Meta.TxChanges)
 		changes = append(changes, txChanges...)
 
-		// Ignore operations meta if txInternalError https://github.com/stellar/go/issues/2111
+		// Ignore operations meta if txInternalError https://github.com/pownieh/stellar_go/issues/2111
 		if t.txInternalError() && t.LedgerVersion <= 12 {
 			return changes, nil
 		}
@@ -83,7 +83,7 @@ func (t *LedgerTransaction) GetChanges() ([]Change, error) {
 		changes = append(changes, txChangesBefore...)
 
 		// Ignore operations meta and txChangesAfter if txInternalError
-		// https://github.com/stellar/go/issues/2111
+		// https://github.com/pownieh/stellar_go/issues/2111
 		if t.txInternalError() && t.LedgerVersion <= 12 {
 			return changes, nil
 		}
@@ -122,7 +122,7 @@ func (t *LedgerTransaction) GetOperationChanges(operationIndex uint32) ([]Change
 		return changes, errors.New("TransactionMeta.V=0 not supported")
 	}
 
-	// Ignore operations meta if txInternalError https://github.com/stellar/go/issues/2111
+	// Ignore operations meta if txInternalError https://github.com/pownieh/stellar_go/issues/2111
 	if t.txInternalError() && t.LedgerVersion <= 12 {
 		return changes, nil
 	}

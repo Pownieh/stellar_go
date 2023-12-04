@@ -5,9 +5,9 @@ import (
 	"time"
 
 	herrors "github.com/pownieh/stellar_go/services/horizon/internal/errors"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/log"
-	"github.com/stellar/go/toid"
+	"github.com/pownieh/stellar_go/support/errors"
+	"github.com/pownieh/stellar_go/support/log"
+	"github.com/pownieh/stellar_go/toid"
 )
 
 // DeleteUnretainedHistory removes all data associated with unretained ledgers.

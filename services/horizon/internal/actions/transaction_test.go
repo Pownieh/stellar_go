@@ -4,10 +4,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/pownieh/stellar_go/protocols/horizon"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
 	"github.com/pownieh/stellar_go/services/horizon/internal/test"
-	"github.com/stellar/go/protocols/horizon"
-	supportProblem "github.com/stellar/go/support/render/problem"
+	supportProblem "github.com/pownieh/stellar_go/support/render/problem"
 )
 
 func TestGetTransactionsHandler(t *testing.T) {

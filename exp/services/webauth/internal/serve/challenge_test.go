@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stellar/go/keypair"
-	"github.com/stellar/go/network"
-	"github.com/stellar/go/strkey"
-	supportlog "github.com/stellar/go/support/log"
-	"github.com/stellar/go/txnbuild"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/keypair"
+	"github.com/pownieh/stellar_go/network"
+	"github.com/pownieh/stellar_go/strkey"
+	supportlog "github.com/pownieh/stellar_go/support/log"
+	"github.com/pownieh/stellar_go/txnbuild"
+	"github.com/pownieh/stellar_go/xdr"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

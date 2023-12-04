@@ -4,13 +4,13 @@ import (
 	"context"
 	"strings"
 
+	"github.com/pownieh/stellar_go/amount"
+	protocol "github.com/pownieh/stellar_go/protocols/horizon"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/amount"
-	protocol "github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/strkey"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/render/hal"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/strkey"
+	"github.com/pownieh/stellar_go/support/errors"
+	"github.com/pownieh/stellar_go/support/render/hal"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 // PopulateAssetStat populates an AssetStat using asset stats and account entries

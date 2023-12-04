@@ -4,11 +4,11 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/pownieh/stellar_go/clients/horizonclient"
+	"github.com/pownieh/stellar_go/keypair"
+	"github.com/pownieh/stellar_go/protocols/horizon"
 	"github.com/pownieh/stellar_go/services/friendbot/internal"
-	"github.com/stellar/go/clients/horizonclient"
-	"github.com/stellar/go/keypair"
-	"github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/support/render/problem"
+	"github.com/pownieh/stellar_go/support/render/problem"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

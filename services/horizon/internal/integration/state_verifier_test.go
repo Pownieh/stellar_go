@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/pownieh/stellar_go/keypair"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
 	"github.com/pownieh/stellar_go/services/horizon/internal/test/integration"
-	"github.com/stellar/go/keypair"
-	"github.com/stellar/go/txnbuild"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/txnbuild"
+	"github.com/pownieh/stellar_go/xdr"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -37,7 +37,7 @@ ENV PGPORT=5432
 ENV PGUSER=circleci
 ENV PGHOST=localhost
 
-WORKDIR /go/src/github.com/stellar/go/exp/tools/dump-ledger-state
+WORKDIR /go/src/github.com/pownieh/stellar_go/exp/tools/dump-ledger-state
 
 ARG GITCOMMIT
 ENV GITCOMMIT=${GITCOMMIT}

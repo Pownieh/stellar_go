@@ -4,7 +4,7 @@ import (
 	"log"
 	"sync"
 
-	hProtocol "github.com/stellar/go/protocols/horizon"
+	hProtocol "github.com/pownieh/stellar_go/protocols/horizon"
 )
 
 // Bot represents the friendbot subsystem and primarily delegates work

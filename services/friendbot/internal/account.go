@@ -1,8 +1,8 @@
 package internal
 
 import (
-	"github.com/stellar/go/clients/horizonclient"
-	"github.com/stellar/go/support/errors"
+	"github.com/pownieh/stellar_go/clients/horizonclient"
+	"github.com/pownieh/stellar_go/support/errors"
 )
 
 // Account implements the `txnbuild.Account` interface.

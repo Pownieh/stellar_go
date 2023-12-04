@@ -5,8 +5,8 @@ WORKDIR /go/src/github.com/stellar/go
 COPY go.mod go.sum ./
 RUN go mod download
 COPY . ./
-ENV GOFLAGS="-ldflags=-X=github.com/stellar/go/support/app.version=${VERSION}-(built-from-source)"
-RUN go install github.com/stellar/go/services/horizon
+ENV GOFLAGS="-ldflags=-X=github.com/pownieh/stellar_go/support/app.version=${VERSION}-(built-from-source)"
+RUN go install github.com/pownieh/stellar_go/services/horizon
 
 FROM ubuntu:22.04
 ARG STELLAR_CORE_VERSION 

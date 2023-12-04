@@ -7,10 +7,10 @@ import (
 
 	"github.com/pownieh/stellar_go/services/regulated-assets-approval-server/internal/db"
 	"github.com/pownieh/stellar_go/services/regulated-assets-approval-server/internal/db/dbmigrate"
+	"github.com/pownieh/stellar_go/support/config"
+	"github.com/pownieh/stellar_go/support/log"
 	migrate "github.com/rubenv/sql-migrate"
 	"github.com/spf13/cobra"
-	"github.com/stellar/go/support/config"
-	"github.com/stellar/go/support/log"
 )
 
 type MigrateCommand struct {

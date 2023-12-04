@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/stellar/go/support/errors"
-	logpkg "github.com/stellar/go/support/log"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/support/errors"
+	logpkg "github.com/pownieh/stellar_go/support/log"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 type historyRangeState struct {

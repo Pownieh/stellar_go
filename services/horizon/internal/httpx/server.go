@@ -15,9 +15,9 @@ import (
 	"github.com/pownieh/stellar_go/services/horizon/internal/ledger"
 	hProblem "github.com/pownieh/stellar_go/services/horizon/internal/render/problem"
 	"github.com/pownieh/stellar_go/services/horizon/internal/render/sse"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/log"
-	"github.com/stellar/go/support/render/problem"
+	"github.com/pownieh/stellar_go/support/db"
+	"github.com/pownieh/stellar_go/support/log"
+	"github.com/pownieh/stellar_go/support/render/problem"
 )
 
 type ServerMetrics struct {

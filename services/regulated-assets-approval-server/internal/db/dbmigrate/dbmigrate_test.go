@@ -9,9 +9,9 @@ import (
 	assetfs "github.com/elazarl/go-bindata-assetfs"
 	dbpkg "github.com/pownieh/stellar_go/services/regulated-assets-approval-server/internal/db"
 	"github.com/pownieh/stellar_go/services/regulated-assets-approval-server/internal/db/dbtest"
+	supportHttp "github.com/pownieh/stellar_go/support/http"
 	migrate "github.com/rubenv/sql-migrate"
 	"github.com/shurcooL/httpfs/filter"
-	supportHttp "github.com/stellar/go/support/http"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

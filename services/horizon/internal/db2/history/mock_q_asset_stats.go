@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/mock"
 
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 // MockQAssetStats is a mock implementation of the QAssetStats interface

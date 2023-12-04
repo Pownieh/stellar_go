@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/stellar/go/strkey"
+	"github.com/pownieh/stellar_go/strkey"
 )
 
 func (address ScAddress) String() (string, error) {

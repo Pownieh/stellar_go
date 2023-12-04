@@ -5,8 +5,8 @@ import (
 	"io"
 	"os"
 
+	"github.com/pownieh/stellar_go/keypair"
 	"github.com/spf13/cobra"
-	"github.com/stellar/go/keypair"
 )
 
 func main() {

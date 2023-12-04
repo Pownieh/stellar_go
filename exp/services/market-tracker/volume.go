@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
+	hProtocol "github.com/pownieh/stellar_go/protocols/horizon"
 	"github.com/prometheus/client_golang/prometheus"
-	hProtocol "github.com/stellar/go/protocols/horizon"
 )
 
 // Volume stores volume of a various base pair in both XLM and USD.

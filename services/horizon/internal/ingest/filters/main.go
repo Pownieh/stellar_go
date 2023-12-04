@@ -7,7 +7,7 @@ import (
 
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
 	"github.com/pownieh/stellar_go/services/horizon/internal/ingest/processors"
-	"github.com/stellar/go/support/log"
+	"github.com/pownieh/stellar_go/support/log"
 )
 
 var (

@@ -16,7 +16,7 @@ Horizon log files for more details. The logs should contain detailed
 information to help you discover the root issue.
 
 If you are encountering this error on the public Stellar infrastructure, please
-report an error on [Horizon's issue tracker](https://github.com/stellar/go/issues)
+report an error on [Horizon's issue tracker](https://github.com/pownieh/stellar_go/issues)
 and include as much information about the request that triggered the response
 as you can (especially the time of the request).
 
@@ -39,7 +39,7 @@ draft specification guide and thus has the following attributes:
   "type": "https://stellar.org/horizon-errors/server_error",
   "title": "Internal Server Error",
   "status": 500,
-  "details": "An error occurred while processing this request. This is usually due to a bug within the server software. Trying this request again may succeed if the bug is transient, otherwise please report this issue to the issue tracker at: https://github.com/stellar/go/issues. Please include this response in your issue."
+  "details": "An error occurred while processing this request. This is usually due to a bug within the server software. Trying this request again may succeed if the bug is transient, otherwise please report this issue to the issue tracker at: https://github.com/pownieh/stellar_go/issues. Please include this response in your issue."
 }
 ```
 

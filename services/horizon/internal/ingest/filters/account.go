@@ -3,10 +3,10 @@ package filters
 import (
 	"context"
 
+	"github.com/pownieh/stellar_go/ingest"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
 	"github.com/pownieh/stellar_go/services/horizon/internal/ingest/processors"
-	"github.com/stellar/go/ingest"
-	"github.com/stellar/go/support/collections/set"
+	"github.com/pownieh/stellar_go/support/collections/set"
 )
 
 type accountFilter struct {

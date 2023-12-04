@@ -8,8 +8,8 @@ import (
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
 	"github.com/pownieh/stellar_go/services/horizon/internal/test/integration"
-	strtime "github.com/stellar/go/support/time"
-	"github.com/stellar/go/xdr"
+	strtime "github.com/pownieh/stellar_go/support/time"
+	"github.com/pownieh/stellar_go/xdr"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/guregu/null"

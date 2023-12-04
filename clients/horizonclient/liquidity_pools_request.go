@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/stellar/go/support/errors"
+	"github.com/pownieh/stellar_go/support/errors"
 )
 
 // LiquidityPoolsRequest struct contains data for getting pool details from a horizon server.

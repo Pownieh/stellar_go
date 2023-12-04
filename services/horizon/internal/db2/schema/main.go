@@ -9,8 +9,8 @@ import (
 	"text/tabwriter"
 	"time"
 
+	"github.com/pownieh/stellar_go/support/errors"
 	migrate "github.com/rubenv/sql-migrate"
-	"github.com/stellar/go/support/errors"
 )
 
 //go:generate go run github.com/kevinburke/go-bindata/go-bindata@v3.18.0+incompatible -nometadata -pkg schema -o bindata.go migrations/

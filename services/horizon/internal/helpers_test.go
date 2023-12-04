@@ -6,9 +6,9 @@ import (
 
 	"github.com/stellar/throttled"
 
+	"github.com/pownieh/stellar_go/network"
 	"github.com/pownieh/stellar_go/services/horizon/internal/test"
-	"github.com/stellar/go/network"
-	supportLog "github.com/stellar/go/support/log"
+	supportLog "github.com/pownieh/stellar_go/support/log"
 )
 
 func NewTestApp(dsn string) *App {

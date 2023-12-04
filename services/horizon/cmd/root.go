@@ -5,8 +5,8 @@ import (
 	stdLog "log"
 
 	horizon "github.com/pownieh/stellar_go/services/horizon/internal"
+	"github.com/pownieh/stellar_go/support/config"
 	"github.com/spf13/cobra"
-	"github.com/stellar/go/support/config"
 )
 
 var (

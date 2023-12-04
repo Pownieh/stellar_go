@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/stellar/go/support/db/dbtest"
-	"github.com/stellar/go/support/http/httptest"
+	"github.com/pownieh/stellar_go/support/db/dbtest"
+	"github.com/pownieh/stellar_go/support/http/httptest"
 )
 
 func TestHandler(t *testing.T) {
@@ -85,7 +85,7 @@ func TestHandler(t *testing.T) {
 		ContainsKey("message").
 		ValueEqual("message", "q parameter is blank")
 
-		// Different domain
+	// Different domain
 	server.GET("/federation").
 		WithQuery("type", "name").
 		WithQuery("q", "scott*example.com").
@@ -225,7 +225,7 @@ func TestForwardHandler(t *testing.T) {
 		ContainsKey("memo").
 		ValueEqual("memo", "1")
 
-		// Good forward request
+	// Good forward request
 	server.GET("/federation").
 		WithQuery("type", "forward").
 		WithQuery("forward_type", "bank_account").

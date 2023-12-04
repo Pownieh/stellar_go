@@ -160,7 +160,7 @@ We can create a command-line tool that computes basic stats and exercises all th
 
 ### The proof of concept
 
-We can implement [accounts for signer](https://github.com/stellar/go/issues/432) using the new ingestion system. It's a good candidate because it's something we urgently need, and it's a new feature, so we don't risk breaking anything existing if there's an issue with the system.
+We can implement [accounts for signer](https://github.com/pownieh/stellar_go/issues/432) using the new ingestion system. It's a good candidate because it's something we urgently need, and it's a new feature, so we don't risk breaking anything existing if there's an issue with the system.
 
 ### Chunks that can be broken off and implemented separately
 
@@ -178,4 +178,4 @@ At this point, we'll have a full end-to-end implementation! Next, we start filli
 
 ### Porting the rest of Horizon over
 
-Once the proof of concept is functional, tables / features can be ported over one by one. Features that depend on `stellar-core` tables currently can be moved to equivalent tables maintained by Horizon. I imagine most features will still use postgres, but a few, such as pathfinding, will need in-memory storage for speed. If pathfinding can maintain a copy of order books [in memory](https://github.com/stellar/go/issues/849) it should run orders of magnitude faster. Horizon should be split out into a microservices architecture, with each feature implemented using a different `StateInitProcess` or `LedgerProcess` object.
+Once the proof of concept is functional, tables / features can be ported over one by one. Features that depend on `stellar-core` tables currently can be moved to equivalent tables maintained by Horizon. I imagine most features will still use postgres, but a few, such as pathfinding, will need in-memory storage for speed. If pathfinding can maintain a copy of order books [in memory](https://github.com/pownieh/stellar_go/issues/849) it should run orders of magnitude faster. Horizon should be split out into a microservices architecture, with each feature implemented using a different `StateInitProcess` or `LedgerProcess` object.

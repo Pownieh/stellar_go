@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
+	horizonclient "github.com/pownieh/stellar_go/clients/horizonclient"
+	hProtocol "github.com/pownieh/stellar_go/protocols/horizon"
 	"github.com/pownieh/stellar_go/services/ticker/internal/utils"
-	horizonclient "github.com/stellar/go/clients/horizonclient"
-	hProtocol "github.com/stellar/go/protocols/horizon"
-	hlog "github.com/stellar/go/support/log"
+	hlog "github.com/pownieh/stellar_go/support/log"
 )
 
 type ScraperConfig struct {

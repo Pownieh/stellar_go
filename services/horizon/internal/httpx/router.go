@@ -22,9 +22,9 @@ import (
 	"github.com/pownieh/stellar_go/services/horizon/internal/render"
 	"github.com/pownieh/stellar_go/services/horizon/internal/render/sse"
 	"github.com/pownieh/stellar_go/services/horizon/internal/txsub"
-	"github.com/stellar/go/support/db"
-	supporthttp "github.com/stellar/go/support/http"
-	"github.com/stellar/go/support/render/problem"
+	"github.com/pownieh/stellar_go/support/db"
+	supporthttp "github.com/pownieh/stellar_go/support/http"
+	"github.com/pownieh/stellar_go/support/render/problem"
 )
 
 type RouterConfig struct {

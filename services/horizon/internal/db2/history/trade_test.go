@@ -1,7 +1,7 @@
 package history
 
 import (
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/xdr"
 	"testing"
 
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2"

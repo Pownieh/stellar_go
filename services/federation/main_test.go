@@ -3,8 +3,8 @@ package main
 import (
 	"testing"
 
-	"github.com/stellar/go/support/db/dbtest"
-	"github.com/stellar/go/support/errors"
+	"github.com/pownieh/stellar_go/support/db/dbtest"
+	"github.com/pownieh/stellar_go/support/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

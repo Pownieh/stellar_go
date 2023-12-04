@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"net/url"
 
-	hProtocol "github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/support/errors"
+	hProtocol "github.com/pownieh/stellar_go/protocols/horizon"
+	"github.com/pownieh/stellar_go/support/errors"
 )
 
 // BuildURL creates the endpoint to be queried based on the data in the TransactionRequest struct.

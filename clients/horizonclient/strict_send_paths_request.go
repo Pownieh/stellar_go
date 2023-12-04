@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/stellar/go/support/errors"
+	"github.com/pownieh/stellar_go/support/errors"
 )
 
 // BuildURL creates the endpoint to be queried based on the data in the PathsRequest struct.

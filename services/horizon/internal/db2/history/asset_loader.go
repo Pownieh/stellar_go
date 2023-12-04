@@ -9,11 +9,11 @@ import (
 
 	sq "github.com/Masterminds/squirrel"
 
-	"github.com/stellar/go/support/collections/set"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/ordered"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/support/collections/set"
+	"github.com/pownieh/stellar_go/support/db"
+	"github.com/pownieh/stellar_go/support/errors"
+	"github.com/pownieh/stellar_go/support/ordered"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 type AssetKey struct {
@@ -150,7 +150,7 @@ func (a *AssetLoader) Exec(ctx context.Context, session db.SessionInterface) err
 	assetCodes := make([]string, 0, len(a.set)-len(a.ids))
 	assetIssuers := make([]string, 0, len(a.set)-len(a.ids))
 	// sort entries before inserting rows to prevent deadlocks on acquiring a ShareLock
-	// https://github.com/stellar/go/issues/2370
+	// https://github.com/pownieh/stellar_go/issues/2370
 	sort.Slice(keys, func(i, j int) bool {
 		return keys[i].String() < keys[j].String()
 	})

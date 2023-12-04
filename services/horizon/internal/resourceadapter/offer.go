@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"math/big"
 
+	"github.com/pownieh/stellar_go/amount"
+	protocol "github.com/pownieh/stellar_go/protocols/horizon"
 	horizonContext "github.com/pownieh/stellar_go/services/horizon/internal/context"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/amount"
-	protocol "github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/support/render/hal"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/support/render/hal"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 // PopulateOffer constructs an offer response struct from an offer row extracted from the

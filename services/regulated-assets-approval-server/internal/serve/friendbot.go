@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"net/http"
 
+	"github.com/pownieh/stellar_go/clients/horizonclient"
+	"github.com/pownieh/stellar_go/keypair"
 	"github.com/pownieh/stellar_go/services/regulated-assets-approval-server/internal/serve/httperror"
-	"github.com/stellar/go/clients/horizonclient"
-	"github.com/stellar/go/keypair"
-	"github.com/stellar/go/strkey"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/http/httpdecode"
-	"github.com/stellar/go/support/log"
-	"github.com/stellar/go/support/render/httpjson"
-	"github.com/stellar/go/txnbuild"
+	"github.com/pownieh/stellar_go/strkey"
+	"github.com/pownieh/stellar_go/support/errors"
+	"github.com/pownieh/stellar_go/support/http/httpdecode"
+	"github.com/pownieh/stellar_go/support/log"
+	"github.com/pownieh/stellar_go/support/render/httpjson"
+	"github.com/pownieh/stellar_go/txnbuild"
 )
 
 type friendbotHandler struct {

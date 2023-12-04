@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	hlog "github.com/stellar/go/support/log"
+	hlog "github.com/pownieh/stellar_go/support/log"
 )
 
 // PanicIfError is an utility function that panics if err != nil

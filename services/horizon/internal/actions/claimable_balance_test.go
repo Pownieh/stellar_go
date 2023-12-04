@@ -6,12 +6,12 @@ import (
 	"testing"
 
 	"github.com/guregu/null"
+	protocol "github.com/pownieh/stellar_go/protocols/horizon"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
 	"github.com/pownieh/stellar_go/services/horizon/internal/test"
-	protocol "github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/render/problem"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/support/errors"
+	"github.com/pownieh/stellar_go/support/render/problem"
+	"github.com/pownieh/stellar_go/xdr"
 	"github.com/stretchr/testify/assert"
 )
 

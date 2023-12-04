@@ -11,12 +11,12 @@ import (
 	"strings"
 	"time"
 
+	"github.com/pownieh/stellar_go/support/errors"
+	"github.com/pownieh/stellar_go/support/log"
+	"github.com/pownieh/stellar_go/support/render/health"
+	"github.com/pownieh/stellar_go/support/render/httpjson"
+	"github.com/pownieh/stellar_go/support/render/problem"
 	"github.com/rs/cors"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/log"
-	"github.com/stellar/go/support/render/health"
-	"github.com/stellar/go/support/render/httpjson"
-	"github.com/stellar/go/support/render/problem"
 )
 
 func init() {

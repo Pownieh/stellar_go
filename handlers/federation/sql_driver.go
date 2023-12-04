@@ -3,8 +3,8 @@ package federation
 import (
 	"context"
 
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/errors"
+	"github.com/pownieh/stellar_go/support/db"
+	"github.com/pownieh/stellar_go/support/errors"
 )
 
 // LookupRecord implements `Driver` by performing `drv.LookupRecordQuery`

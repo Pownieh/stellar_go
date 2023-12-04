@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
+	horizonclient "github.com/pownieh/stellar_go/clients/horizonclient"
 	"github.com/pownieh/stellar_go/services/ticker/internal/scraper"
 	"github.com/pownieh/stellar_go/services/ticker/internal/tickerdb"
-	horizonclient "github.com/stellar/go/clients/horizonclient"
-	"github.com/stellar/go/support/errors"
-	hlog "github.com/stellar/go/support/log"
+	"github.com/pownieh/stellar_go/support/errors"
+	hlog "github.com/pownieh/stellar_go/support/log"
 )
 
 // RefreshOrderbookEntries updates the orderbook entries for the relevant markets that were active

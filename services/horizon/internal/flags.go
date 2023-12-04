@@ -14,14 +14,14 @@ import (
 
 	"github.com/stellar/throttled"
 
+	"github.com/pownieh/stellar_go/ingest/ledgerbackend"
+	"github.com/pownieh/stellar_go/network"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/schema"
-	"github.com/stellar/go/ingest/ledgerbackend"
-	"github.com/stellar/go/network"
-	apkg "github.com/stellar/go/support/app"
-	support "github.com/stellar/go/support/config"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/log"
+	apkg "github.com/pownieh/stellar_go/support/app"
+	support "github.com/pownieh/stellar_go/support/config"
+	"github.com/pownieh/stellar_go/support/db"
+	"github.com/pownieh/stellar_go/support/errors"
+	"github.com/pownieh/stellar_go/support/log"
 )
 
 const (
@@ -128,7 +128,7 @@ func checkMigrations(config Config) error {
 		return fmt.Errorf(
 			`There are %v migrations to apply in the "up" direction.
 The necessary migrations are: %v
-A database migration is required to run this version (%v) of Horizon. Run "horizon db migrate up" to update your DB. Consult the Changelog (https://github.com/stellar/go/blob/master/services/horizon/CHANGELOG.md) for more information.`,
+A database migration is required to run this version (%v) of Horizon. Run "horizon db migrate up" to update your DB. Consult the Changelog (https://github.com/pownieh/stellar_go/blob/master/services/horizon/CHANGELOG.md) for more information.`,
 			len(migrationsToApplyUp),
 			migrationsToApplyUp,
 			apkg.Version(),
@@ -138,7 +138,7 @@ A database migration is required to run this version (%v) of Horizon. Run "horiz
 	nMigrationsDown := schema.GetNumMigrationsDown(config.DatabaseURL)
 	if nMigrationsDown > 0 {
 		return fmt.Errorf(
-			`A database migration DOWN to an earlier version of the schema is required to run this version (%v) of Horizon. Consult the Changelog (https://github.com/stellar/go/blob/master/services/horizon/CHANGELOG.md) for more information.
+			`A database migration DOWN to an earlier version of the schema is required to run this version (%v) of Horizon. Consult the Changelog (https://github.com/pownieh/stellar_go/blob/master/services/horizon/CHANGELOG.md) for more information.
 In order to migrate the database DOWN, using the HIGHEST version number of Horizon you have installed (not this binary), run "horizon db migrate down %v".`,
 			apkg.Version(),
 			nMigrationsDown,

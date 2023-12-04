@@ -22,10 +22,10 @@ import (
 	"github.com/pownieh/stellar_go/services/horizon/internal/ledger"
 	"github.com/pownieh/stellar_go/services/horizon/internal/render"
 	hProblem "github.com/pownieh/stellar_go/services/horizon/internal/render/problem"
-	"github.com/stellar/go/support/db"
-	supportErrors "github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/log"
-	"github.com/stellar/go/support/render/problem"
+	"github.com/pownieh/stellar_go/support/db"
+	supportErrors "github.com/pownieh/stellar_go/support/errors"
+	"github.com/pownieh/stellar_go/support/log"
+	"github.com/pownieh/stellar_go/support/render/problem"
 )
 
 // requestCacheHeadersMiddleware adds caching headers to each response.

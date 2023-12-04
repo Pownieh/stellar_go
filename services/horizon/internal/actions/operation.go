@@ -10,10 +10,10 @@ import (
 	"github.com/pownieh/stellar_go/services/horizon/internal/ledger"
 	"github.com/pownieh/stellar_go/services/horizon/internal/render/problem"
 	"github.com/pownieh/stellar_go/services/horizon/internal/resourceadapter"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/render/hal"
-	supportProblem "github.com/stellar/go/support/render/problem"
-	"github.com/stellar/go/toid"
+	"github.com/pownieh/stellar_go/support/errors"
+	"github.com/pownieh/stellar_go/support/render/hal"
+	supportProblem "github.com/pownieh/stellar_go/support/render/problem"
+	"github.com/pownieh/stellar_go/toid"
 )
 
 // Joinable query struct for join query parameter

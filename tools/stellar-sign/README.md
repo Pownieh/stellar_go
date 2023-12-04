@@ -15,7 +15,7 @@ When run on the terminal it:
 ## Installing
 
 ```bash
-$ go get -u github.com/stellar/go/tools/stellar-sign
+$ go get -u github.com/pownieh/stellar_go/tools/stellar-sign
 ```
 
 ## Running

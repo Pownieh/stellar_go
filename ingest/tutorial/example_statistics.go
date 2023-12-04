@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/pownieh/stellar_go/ingest"
+	backends "github.com/pownieh/stellar_go/ingest/ledgerbackend"
+	"github.com/pownieh/stellar_go/support/log"
 	"github.com/sirupsen/logrus"
-	"github.com/stellar/go/ingest"
-	backends "github.com/stellar/go/ingest/ledgerbackend"
-	"github.com/stellar/go/support/log"
 )
 
 func statistics() {

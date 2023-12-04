@@ -11,8 +11,8 @@ import (
 	"github.com/guregu/null"
 	"github.com/jmoiron/sqlx"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/support/errors"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 // LiquidityPoolsQuery is a helper struct to configure queries to liquidity pools
@@ -38,7 +38,7 @@ type LiquidityPoolAssetReserves []LiquidityPoolAssetReserve
 
 func (c LiquidityPoolAssetReserves) Value() (driver.Value, error) {
 	// Convert the byte array into a string as a workaround to bypass buggy encoding in the pq driver
-	// (More info about this bug here https://github.com/stellar/go/issues/5086#issuecomment-1773215436).
+	// (More info about this bug here https://github.com/pownieh/stellar_go/issues/5086#issuecomment-1773215436).
 	val, err := json.Marshal(c)
 	return string(val), err
 }

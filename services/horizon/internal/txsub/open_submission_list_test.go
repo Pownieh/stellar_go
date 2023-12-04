@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/pownieh/stellar_go/services/horizon/internal/test"
-	"github.com/stellar/go/support/errors"
+	"github.com/pownieh/stellar_go/support/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 )

@@ -7,13 +7,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
+	"github.com/pownieh/stellar_go/protocols/horizon"
+	"github.com/pownieh/stellar_go/protocols/horizon/base"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
 	"github.com/pownieh/stellar_go/services/horizon/internal/test"
-	"github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/protocols/horizon/base"
-	"github.com/stellar/go/support/render/hal"
-	"github.com/stellar/go/support/render/problem"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/support/render/hal"
+	"github.com/pownieh/stellar_go/support/render/problem"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 func TestAssetStatsValidation(t *testing.T) {

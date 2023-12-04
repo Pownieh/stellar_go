@@ -7,11 +7,11 @@ import (
 	"sync"
 	"time"
 
+	horizonclient "github.com/pownieh/stellar_go/clients/horizonclient"
 	"github.com/pownieh/stellar_go/services/ticker/internal/scraper"
 	"github.com/pownieh/stellar_go/services/ticker/internal/tickerdb"
 	"github.com/pownieh/stellar_go/services/ticker/internal/utils"
-	horizonclient "github.com/stellar/go/clients/horizonclient"
-	hlog "github.com/stellar/go/support/log"
+	hlog "github.com/pownieh/stellar_go/support/log"
 )
 
 // RefreshAssets scrapes the most recent asset list and ingests then into the db.

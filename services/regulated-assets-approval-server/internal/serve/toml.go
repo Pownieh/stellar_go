@@ -5,9 +5,9 @@ import (
 	"net/http"
 
 	"github.com/pownieh/stellar_go/services/regulated-assets-approval-server/internal/serve/httperror"
-	"github.com/stellar/go/strkey"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/log"
+	"github.com/pownieh/stellar_go/strkey"
+	"github.com/pownieh/stellar_go/support/errors"
+	"github.com/pownieh/stellar_go/support/log"
 )
 
 type stellarTOMLHandler struct {

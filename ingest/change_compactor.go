@@ -3,8 +3,8 @@ package ingest
 import (
 	"encoding/base64"
 
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/support/errors"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 // ChangeCompactor is a cache of ledger entry changes that squashes all

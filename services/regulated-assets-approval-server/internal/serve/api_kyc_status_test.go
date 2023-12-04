@@ -14,9 +14,9 @@ import (
 
 	"github.com/go-chi/chi"
 	"github.com/google/uuid"
+	"github.com/pownieh/stellar_go/keypair"
 	"github.com/pownieh/stellar_go/services/regulated-assets-approval-server/internal/db/dbtest"
 	"github.com/pownieh/stellar_go/services/regulated-assets-approval-server/internal/serve/kycstatus"
-	"github.com/stellar/go/keypair"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

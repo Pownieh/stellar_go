@@ -3,7 +3,7 @@ package xdr
 import (
 	"fmt"
 
-	"github.com/stellar/go/support/errors"
+	"github.com/pownieh/stellar_go/support/errors"
 )
 
 func (a ClaimAtom) OfferId() Int64 {

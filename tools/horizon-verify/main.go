@@ -6,10 +6,10 @@ import (
 	"os"
 	"sync"
 
+	"github.com/pownieh/stellar_go/clients/horizonclient"
+	protocol "github.com/pownieh/stellar_go/protocols/horizon"
+	"github.com/pownieh/stellar_go/xdr"
 	"github.com/spf13/cobra"
-	"github.com/stellar/go/clients/horizonclient"
-	protocol "github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/xdr"
 )
 
 var horizonURL string

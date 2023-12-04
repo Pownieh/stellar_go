@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/pownieh/stellar_go/protocols/horizon"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
 	"github.com/pownieh/stellar_go/services/horizon/internal/ingest"
-	"github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 func TestOfferActions_Show(t *testing.T) {

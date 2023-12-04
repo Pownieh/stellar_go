@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/stellar/go/ingest"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/ingest"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 func TestStatsLedgerTransactionProcessoAllOpTypesCovered(t *testing.T) {

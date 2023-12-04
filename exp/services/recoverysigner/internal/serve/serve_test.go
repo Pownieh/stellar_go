@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/stellar/go/keypair"
-	supportlog "github.com/stellar/go/support/log"
+	"github.com/pownieh/stellar_go/keypair"
+	supportlog "github.com/pownieh/stellar_go/support/log"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"gopkg.in/square/go-jose.v2"

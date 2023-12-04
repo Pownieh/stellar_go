@@ -10,14 +10,14 @@ import (
 	"github.com/guregu/null"
 	"github.com/prometheus/client_golang/prometheus"
 
+	"github.com/pownieh/stellar_go/ingest"
+	"github.com/pownieh/stellar_go/ingest/verify"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
 	"github.com/pownieh/stellar_go/services/horizon/internal/ingest/processors"
-	"github.com/stellar/go/ingest"
-	"github.com/stellar/go/ingest/verify"
-	"github.com/stellar/go/support/errors"
-	logpkg "github.com/stellar/go/support/log"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/support/errors"
+	logpkg "github.com/pownieh/stellar_go/support/log"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 const verifyBatchSize = 50000

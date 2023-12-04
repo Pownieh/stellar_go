@@ -3,7 +3,7 @@ package problem
 import (
 	"net/http"
 
-	"github.com/stellar/go/support/render/problem"
+	"github.com/pownieh/stellar_go/support/render/problem"
 )
 
 // Well-known and reused problems below:

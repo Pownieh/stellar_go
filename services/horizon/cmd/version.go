@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"runtime"
 
+	apkg "github.com/pownieh/stellar_go/support/app"
 	"github.com/spf13/cobra"
-	apkg "github.com/stellar/go/support/app"
 )
 
 var versionCmd = &cobra.Command{

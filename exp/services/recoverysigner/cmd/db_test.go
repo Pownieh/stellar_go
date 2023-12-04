@@ -5,9 +5,9 @@ import (
 
 	dbpkg "github.com/pownieh/stellar_go/exp/services/recoverysigner/internal/db"
 	"github.com/pownieh/stellar_go/exp/services/recoverysigner/internal/db/dbtest"
+	"github.com/pownieh/stellar_go/support/log"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
-	"github.com/stellar/go/support/log"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

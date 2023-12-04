@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/stellar/go/protocols/horizon/effects"
-	"github.com/stellar/go/support/http/httptest"
+	"github.com/pownieh/stellar_go/protocols/horizon/effects"
+	"github.com/pownieh/stellar_go/support/http/httptest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

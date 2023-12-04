@@ -8,10 +8,10 @@ import (
 
 	"github.com/jmoiron/sqlx"
 	"github.com/pownieh/stellar_go/services/regulated-assets-approval-server/internal/serve/httperror"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/http/httpdecode"
-	"github.com/stellar/go/support/log"
-	"github.com/stellar/go/support/render/httpjson"
+	"github.com/pownieh/stellar_go/support/errors"
+	"github.com/pownieh/stellar_go/support/http/httpdecode"
+	"github.com/pownieh/stellar_go/support/log"
+	"github.com/pownieh/stellar_go/support/render/httpjson"
 )
 
 type kycGetResponse struct {

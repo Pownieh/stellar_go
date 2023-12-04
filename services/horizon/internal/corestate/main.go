@@ -3,8 +3,8 @@ package corestate
 import (
 	"sync"
 
+	"github.com/pownieh/stellar_go/protocols/stellarcore"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/stellar/go/protocols/stellarcore"
 )
 
 type State struct {

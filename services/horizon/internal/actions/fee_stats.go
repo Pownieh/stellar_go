@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strconv"
 
+	"github.com/pownieh/stellar_go/protocols/horizon"
 	"github.com/pownieh/stellar_go/services/horizon/internal/operationfeestats"
-	"github.com/stellar/go/protocols/horizon"
 )
 
 // FeeStatsHandler is the action handler for the /fee_stats endpoint

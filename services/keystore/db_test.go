@@ -3,8 +3,8 @@ package keystore
 import (
 	"testing"
 
+	"github.com/pownieh/stellar_go/support/db/dbtest"
 	migrate "github.com/rubenv/sql-migrate"
-	"github.com/stellar/go/support/db/dbtest"
 )
 
 // TODO: creating a DB for every single test is inefficient. Maybe we can

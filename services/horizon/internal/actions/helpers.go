@@ -20,10 +20,10 @@ import (
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2"
 	"github.com/pownieh/stellar_go/services/horizon/internal/ledger"
 	hProblem "github.com/pownieh/stellar_go/services/horizon/internal/render/problem"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/render/problem"
-	"github.com/stellar/go/toid"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/support/errors"
+	"github.com/pownieh/stellar_go/support/render/problem"
+	"github.com/pownieh/stellar_go/toid"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 // TODO: move these constants to urlparam.go as we should parse the params with http handlers

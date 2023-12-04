@@ -1,7 +1,7 @@
 package orderbook
 
 import (
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 // getPoolAssets retrieves string representations of a pool's reserves

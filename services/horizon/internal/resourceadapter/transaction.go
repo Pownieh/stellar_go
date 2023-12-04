@@ -10,11 +10,11 @@ import (
 	"github.com/guregu/null"
 
 	horizonContext "github.com/pownieh/stellar_go/services/horizon/internal/context"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/xdr"
 
+	protocol "github.com/pownieh/stellar_go/protocols/horizon"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
-	protocol "github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/support/render/hal"
+	"github.com/pownieh/stellar_go/support/render/hal"
 )
 
 // Populate fills out the details

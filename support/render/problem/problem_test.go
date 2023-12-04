@@ -10,8 +10,8 @@ import (
 	"testing"
 
 	ge "github.com/go-errors/errors"
-	"github.com/stellar/go/support/log"
-	"github.com/stellar/go/support/test"
+	"github.com/pownieh/stellar_go/support/log"
+	"github.com/pownieh/stellar_go/support/test"
 	"github.com/stretchr/testify/assert"
 )
 

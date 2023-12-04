@@ -5,9 +5,9 @@ import (
 
 	"github.com/pownieh/stellar_go/exp/services/recoverysigner/internal/account"
 	"github.com/pownieh/stellar_go/exp/services/recoverysigner/internal/serve/auth"
-	"github.com/stellar/go/keypair"
-	supportlog "github.com/stellar/go/support/log"
-	"github.com/stellar/go/support/render/httpjson"
+	"github.com/pownieh/stellar_go/keypair"
+	supportlog "github.com/pownieh/stellar_go/support/log"
+	"github.com/pownieh/stellar_go/support/render/httpjson"
 )
 
 type accountListHandler struct {

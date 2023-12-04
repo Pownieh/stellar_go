@@ -5,8 +5,8 @@
 package historyarchive
 
 import (
+	"github.com/pownieh/stellar_go/xdr"
 	log "github.com/sirupsen/logrus"
-	"github.com/stellar/go/xdr"
 	"io"
 	"time"
 )

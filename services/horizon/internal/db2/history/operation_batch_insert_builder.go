@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/guregu/null"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/support/db"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 // OperationBatchInsertBuilder is used to insert a transaction's operations into the

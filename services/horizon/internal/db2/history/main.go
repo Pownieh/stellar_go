@@ -20,11 +20,11 @@ import (
 	"github.com/lib/pq"
 
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2"
-	"github.com/stellar/go/support/collections/set"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/errors"
-	strtime "github.com/stellar/go/support/time"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/support/collections/set"
+	"github.com/pownieh/stellar_go/support/db"
+	"github.com/pownieh/stellar_go/support/errors"
+	strtime "github.com/pownieh/stellar_go/support/time"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 const (

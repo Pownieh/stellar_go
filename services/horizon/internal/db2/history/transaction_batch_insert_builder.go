@@ -11,11 +11,11 @@ import (
 	"github.com/guregu/null"
 	"github.com/lib/pq"
 
+	"github.com/pownieh/stellar_go/ingest"
 	"github.com/pownieh/stellar_go/services/horizon/internal/utf8"
-	"github.com/stellar/go/ingest"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/toid"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/support/db"
+	"github.com/pownieh/stellar_go/toid"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 // TransactionBatchInsertBuilder is used to insert transactions into the

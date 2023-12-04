@@ -16,11 +16,11 @@ import (
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2"
 	"github.com/pownieh/stellar_go/services/horizon/internal/ledger"
 	"github.com/pownieh/stellar_go/services/horizon/internal/test"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/render/problem"
-	"github.com/stellar/go/toid"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/support/db"
+	"github.com/pownieh/stellar_go/support/errors"
+	"github.com/pownieh/stellar_go/support/render/problem"
+	"github.com/pownieh/stellar_go/toid"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 func TestGetTransactionID(t *testing.T) {
@@ -339,7 +339,7 @@ func TestGetURLParam(t *testing.T) {
 	r := makeTestActionRequest("/accounts/{account_id}/operations?limit=100", nil)
 
 	// simulates a request where the named param is not passed.
-	// Regression for https://github.com/stellar/go/issues/1965
+	// Regression for https://github.com/pownieh/stellar_go/issues/1965
 	rctx := chi.RouteContext(r.Context())
 	rctx.URLParams.Keys = []string{
 		"account_id",

@@ -5,8 +5,8 @@ import (
 
 	"github.com/pownieh/stellar_go/services/ticker/internal/utils"
 
-	horizonclient "github.com/stellar/go/clients/horizonclient"
-	hProtocol "github.com/stellar/go/protocols/horizon"
+	horizonclient "github.com/pownieh/stellar_go/clients/horizonclient"
+	hProtocol "github.com/pownieh/stellar_go/protocols/horizon"
 )
 
 // checkRecords check if a list of records contains entries older than minTime. If it does,

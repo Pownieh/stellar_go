@@ -6,11 +6,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/stellar/go/gxdr"
-	"github.com/stellar/go/keypair"
-	"github.com/stellar/go/randxdr"
-	"github.com/stellar/go/strkey"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/gxdr"
+	"github.com/pownieh/stellar_go/keypair"
+	"github.com/pownieh/stellar_go/randxdr"
+	"github.com/pownieh/stellar_go/strkey"
+	"github.com/pownieh/stellar_go/xdr"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

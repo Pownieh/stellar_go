@@ -17,10 +17,10 @@ import (
 	horizon "github.com/pownieh/stellar_go/services/horizon/internal"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/schema"
 	"github.com/pownieh/stellar_go/services/horizon/internal/ingest"
-	support "github.com/stellar/go/support/config"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/errors"
-	hlog "github.com/stellar/go/support/log"
+	support "github.com/pownieh/stellar_go/support/config"
+	"github.com/pownieh/stellar_go/support/db"
+	"github.com/pownieh/stellar_go/support/errors"
+	hlog "github.com/pownieh/stellar_go/support/log"
 )
 
 var dbCmd = &cobra.Command{

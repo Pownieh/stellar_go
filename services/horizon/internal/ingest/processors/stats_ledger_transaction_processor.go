@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/stellar/go/ingest"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/ingest"
+	"github.com/pownieh/stellar_go/support/db"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 // StatsLedgerTransactionProcessor is a state processors that counts number of changes types

@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
+	"github.com/pownieh/stellar_go/protocols/horizon"
+	protocol "github.com/pownieh/stellar_go/protocols/horizon"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/protocols/horizon"
-	protocol "github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/xdr"
 	"github.com/stretchr/testify/assert"
 )
 

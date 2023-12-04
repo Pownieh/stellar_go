@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/guregu/null"
-	"github.com/stellar/go/support/db/dbtest"
+	"github.com/pownieh/stellar_go/support/db/dbtest"
 	"github.com/stretchr/testify/assert"
 )
 

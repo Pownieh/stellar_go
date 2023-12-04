@@ -1,10 +1,10 @@
 package main
 
 import (
+	"github.com/pownieh/stellar_go/exp/services/webauth/cmd"
+	supportlog "github.com/pownieh/stellar_go/support/log"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
-	"github.com/stellar/go/exp/services/webauth/cmd"
-	supportlog "github.com/stellar/go/support/log"
 )
 
 func main() {

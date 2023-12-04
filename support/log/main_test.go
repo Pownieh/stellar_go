@@ -6,8 +6,8 @@ import (
 	"errors"
 	"testing"
 
+	serr "github.com/pownieh/stellar_go/support/errors"
 	"github.com/sirupsen/logrus"
-	serr "github.com/stellar/go/support/errors"
 	"github.com/stretchr/testify/assert"
 )
 

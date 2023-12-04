@@ -11,8 +11,8 @@ import (
 	"testing"
 
 	hProblem "github.com/pownieh/stellar_go/services/horizon/internal/render/problem"
-	"github.com/stellar/go/support/render/problem"
-	"github.com/stellar/go/support/test"
+	"github.com/pownieh/stellar_go/support/render/problem"
+	"github.com/pownieh/stellar_go/support/test"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 )

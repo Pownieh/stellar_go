@@ -8,7 +8,7 @@ import (
 	"github.com/guregu/null"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2"
 	"github.com/pownieh/stellar_go/services/horizon/internal/test"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 func TestRemoveClaimableBalance(t *testing.T) {

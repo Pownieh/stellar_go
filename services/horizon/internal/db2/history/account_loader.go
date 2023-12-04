@@ -9,10 +9,10 @@ import (
 
 	"github.com/lib/pq"
 
-	"github.com/stellar/go/support/collections/set"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/ordered"
+	"github.com/pownieh/stellar_go/support/collections/set"
+	"github.com/pownieh/stellar_go/support/db"
+	"github.com/pownieh/stellar_go/support/errors"
+	"github.com/pownieh/stellar_go/support/ordered"
 )
 
 // FutureAccountID represents a future history account.
@@ -130,7 +130,7 @@ func (a *AccountLoader) Exec(ctx context.Context, session db.SessionInterface) e
 	}
 	addresses = addresses[:insert]
 	// sort entries before inserting rows to prevent deadlocks on acquiring a ShareLock
-	// https://github.com/stellar/go/issues/2370
+	// https://github.com/pownieh/stellar_go/issues/2370
 	sort.Strings(addresses)
 
 	err := bulkInsert(

@@ -8,10 +8,10 @@ This project is maintained by the Stellar Development Foundation.
     import (
         "log"
         
-        "github.com/stellar/go/clients/horizonclient"
-        "github.com/stellar/go/keypair"
-        "github.com/stellar/go/network"
-        "github.com/stellar/go/txnbuild"
+        "github.com/pownieh/stellar_go/clients/horizonclient"
+        "github.com/pownieh/stellar_go/keypair"
+        "github.com/pownieh/stellar_go/network"
+        "github.com/pownieh/stellar_go/txnbuild"
     )
     
     // Make a keypair for a known account from a secret seed
@@ -65,10 +65,10 @@ This project is maintained by the Stellar Development Foundation.
 ```
 
 ## Getting Started
-This library is aimed at developers building Go applications on top of the [Stellar network](https://www.stellar.org/). Transactions constructed by this library may be submitted to any Horizon instance for processing onto the ledger, using any Stellar SDK client. The recommended client for Go programmers is [horizonclient](https://github.com/stellar/go/tree/master/clients/horizonclient). Together, these two libraries provide a complete Stellar SDK.
+This library is aimed at developers building Go applications on top of the [Stellar network](https://www.stellar.org/). Transactions constructed by this library may be submitted to any Horizon instance for processing onto the ledger, using any Stellar SDK client. The recommended client for Go programmers is [horizonclient](https://github.com/pownieh/stellar_go/tree/master/clients/horizonclient). Together, these two libraries provide a complete Stellar SDK.
 
-* The [txnbuild API reference](https://godoc.org/github.com/stellar/go/txnbuild).
-* The [horizonclient API reference](https://godoc.org/github.com/stellar/go/clients/horizonclient).
+* The [txnbuild API reference](https://godoc.org/github.com/pownieh/stellar_go/txnbuild).
+* The [horizonclient API reference](https://godoc.org/github.com/pownieh/stellar_go/clients/horizonclient).
 
 An easy-to-follow demonstration that exercises this SDK on the TestNet with actual accounts is also included! See the [Demo](#demo) section below.
 
@@ -77,14 +77,14 @@ An easy-to-follow demonstration that exercises this SDK on the TestNet with actu
 * [Modules](https://github.com/golang/go/wiki/Modules) to manage dependencies
 
 ### Installing
-* `go get github.com/stellar/go/txnbuild`
+* `go get github.com/pownieh/stellar_go/txnbuild`
 
 ## Running the tests
 Run the unit tests from the package directory: `go test`
 
 ## Demo
 To see the SDK in action, build and run the demo:
-* Enter the demo directory: `cd $GOPATH/src/github.com/stellar/go/txnbuild/cmd/demo`
+* Enter the demo directory: `cd $GOPATH/src/github.com/pownieh/stellar_go/txnbuild/cmd/demo`
 * Build the demo: `go build`
 * Run the demo: `./demo init`
 

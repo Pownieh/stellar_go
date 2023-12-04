@@ -10,14 +10,14 @@ import (
 
 	"github.com/stretchr/testify/mock"
 
+	"github.com/pownieh/stellar_go/gxdr"
+	"github.com/pownieh/stellar_go/ingest"
+	"github.com/pownieh/stellar_go/randxdr"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
 	"github.com/pownieh/stellar_go/services/horizon/internal/ingest/processors"
 	"github.com/pownieh/stellar_go/services/horizon/internal/test"
-	"github.com/stellar/go/gxdr"
-	"github.com/stellar/go/ingest"
-	"github.com/stellar/go/randxdr"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/support/db"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 func genAccount(tt *test.T, gen randxdr.Generator) xdr.LedgerEntryChange {

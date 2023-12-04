@@ -8,7 +8,7 @@ import (
 	"github.com/graph-gophers/graphql-go/relay"
 	"github.com/pownieh/stellar_go/services/ticker/internal/gql/static"
 	"github.com/pownieh/stellar_go/services/ticker/internal/tickerdb"
-	hlog "github.com/stellar/go/support/log"
+	hlog "github.com/pownieh/stellar_go/support/log"
 )
 
 // asset represents a Stellar asset, with some type

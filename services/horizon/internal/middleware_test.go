@@ -23,9 +23,9 @@ import (
 	hProblem "github.com/pownieh/stellar_go/services/horizon/internal/render/problem"
 	"github.com/pownieh/stellar_go/services/horizon/internal/test"
 	tdb "github.com/pownieh/stellar_go/services/horizon/internal/test/db"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/log"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/support/db"
+	"github.com/pownieh/stellar_go/support/log"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 func requestHelperRemoteAddr(ip string) func(r *http.Request) {

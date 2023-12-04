@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
+	hProtocol "github.com/pownieh/stellar_go/protocols/horizon"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
 	"github.com/pownieh/stellar_go/services/horizon/internal/test"
-	hProtocol "github.com/stellar/go/protocols/horizon"
 )
 
 func TestGetAssetFilterConfig(t *testing.T) {

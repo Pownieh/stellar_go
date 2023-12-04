@@ -13,8 +13,8 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/stellar/go/support/ordered"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/support/ordered"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 var (

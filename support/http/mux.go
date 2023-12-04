@@ -3,8 +3,8 @@ package http
 import (
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
+	"github.com/pownieh/stellar_go/support/log"
 	"github.com/rs/cors"
-	"github.com/stellar/go/support/log"
 )
 
 // NewMux returns a new server mux configured with the common defaults used across all

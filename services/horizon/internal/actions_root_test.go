@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/pownieh/stellar_go/protocols/horizon"
 	"github.com/pownieh/stellar_go/services/horizon/internal/test"
-	"github.com/stellar/go/protocols/horizon"
 	"github.com/stretchr/testify/assert"
 )
 

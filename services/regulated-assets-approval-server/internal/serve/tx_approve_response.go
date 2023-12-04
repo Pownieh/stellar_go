@@ -3,7 +3,7 @@ package serve
 import (
 	"net/http"
 
-	"github.com/stellar/go/support/render/httpjson"
+	"github.com/pownieh/stellar_go/support/render/httpjson"
 )
 
 type txApprovalResponse struct {

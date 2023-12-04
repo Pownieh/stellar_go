@@ -9,15 +9,15 @@ import (
 
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
+	"github.com/pownieh/stellar_go/amount"
+	"github.com/pownieh/stellar_go/clients/horizonclient"
+	"github.com/pownieh/stellar_go/keypair"
 	"github.com/pownieh/stellar_go/services/regulated-assets-approval-server/internal/db"
 	"github.com/pownieh/stellar_go/services/regulated-assets-approval-server/internal/serve/kycstatus"
-	"github.com/stellar/go/amount"
-	"github.com/stellar/go/clients/horizonclient"
-	"github.com/stellar/go/keypair"
-	"github.com/stellar/go/support/errors"
-	supporthttp "github.com/stellar/go/support/http"
-	"github.com/stellar/go/support/log"
-	"github.com/stellar/go/support/render/health"
+	"github.com/pownieh/stellar_go/support/errors"
+	supporthttp "github.com/pownieh/stellar_go/support/http"
+	"github.com/pownieh/stellar_go/support/log"
+	"github.com/pownieh/stellar_go/support/render/health"
 )
 
 type Options struct {

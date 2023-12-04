@@ -7,8 +7,8 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/stellar/go/strkey"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/strkey"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 // GenerateEvent is a utility function to be used by testing frameworks in order

@@ -12,7 +12,7 @@ import (
 
 	"github.com/pownieh/stellar_go/services/ticker/internal/gql"
 	"github.com/pownieh/stellar_go/services/ticker/internal/tickerdb/tickerdbtest"
-	hlog "github.com/stellar/go/support/log"
+	hlog "github.com/pownieh/stellar_go/support/log"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

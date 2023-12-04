@@ -10,11 +10,11 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/pownieh/stellar_go/historyarchive"
+	"github.com/pownieh/stellar_go/ingest"
 	"github.com/pownieh/stellar_go/services/horizon/internal/ingest/processors"
-	"github.com/stellar/go/historyarchive"
-	"github.com/stellar/go/ingest"
-	logpkg "github.com/stellar/go/support/log"
-	"github.com/stellar/go/xdr"
+	logpkg "github.com/pownieh/stellar_go/support/log"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 const (

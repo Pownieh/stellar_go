@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/stellar/go/strkey"
+	"github.com/pownieh/stellar_go/strkey"
 )
 
 // This file contains helpers for working with xdr.Asset structs

@@ -12,12 +12,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
+	"github.com/pownieh/stellar_go/ingest"
+	"github.com/pownieh/stellar_go/network"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
 	"github.com/pownieh/stellar_go/services/horizon/internal/ingest/processors"
-	"github.com/stellar/go/ingest"
-	"github.com/stellar/go/network"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/support/db"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 func TestProcessorRunnerRunHistoryArchiveIngestionGenesis(t *testing.T) {

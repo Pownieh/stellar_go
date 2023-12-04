@@ -10,15 +10,15 @@ import (
 	"time"
 
 	"github.com/guregu/null"
+	"github.com/pownieh/stellar_go/ingest"
+	"github.com/pownieh/stellar_go/protocols/horizon/operations"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
 	"github.com/pownieh/stellar_go/services/horizon/internal/ledger"
 	"github.com/pownieh/stellar_go/services/horizon/internal/render/problem"
 	"github.com/pownieh/stellar_go/services/horizon/internal/test"
-	"github.com/stellar/go/ingest"
-	"github.com/stellar/go/protocols/horizon/operations"
-	supportProblem "github.com/stellar/go/support/render/problem"
-	"github.com/stellar/go/toid"
-	"github.com/stellar/go/xdr"
+	supportProblem "github.com/pownieh/stellar_go/support/render/problem"
+	"github.com/pownieh/stellar_go/toid"
+	"github.com/pownieh/stellar_go/xdr"
 	"github.com/stretchr/testify/assert"
 )
 

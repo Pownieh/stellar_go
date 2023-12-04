@@ -14,7 +14,7 @@ import (
 
 	xdr "github.com/stellar/go-xdr/xdr3"
 
-	"github.com/stellar/go/support/errors"
+	"github.com/pownieh/stellar_go/support/errors"
 )
 
 // CommitHash is the commit hash that was used to generate the xdr in this folder.

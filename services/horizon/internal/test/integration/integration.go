@@ -25,19 +25,19 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/stellar/go/support/config"
+	"github.com/pownieh/stellar_go/support/config"
 
+	sdk "github.com/pownieh/stellar_go/clients/horizonclient"
+	"github.com/pownieh/stellar_go/clients/stellarcore"
+	"github.com/pownieh/stellar_go/ingest/ledgerbackend"
+	"github.com/pownieh/stellar_go/keypair"
+	proto "github.com/pownieh/stellar_go/protocols/horizon"
 	horizon "github.com/pownieh/stellar_go/services/horizon/internal"
 	"github.com/pownieh/stellar_go/services/horizon/internal/ingest"
-	sdk "github.com/stellar/go/clients/horizonclient"
-	"github.com/stellar/go/clients/stellarcore"
-	"github.com/stellar/go/ingest/ledgerbackend"
-	"github.com/stellar/go/keypair"
-	proto "github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/support/db/dbtest"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/txnbuild"
-	"github.com/stellar/go/xdr"
+	"github.com/pownieh/stellar_go/support/db/dbtest"
+	"github.com/pownieh/stellar_go/support/errors"
+	"github.com/pownieh/stellar_go/txnbuild"
+	"github.com/pownieh/stellar_go/xdr"
 )
 
 const (

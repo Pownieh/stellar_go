@@ -8,9 +8,9 @@ import (
 	sq "github.com/Masterminds/squirrel"
 
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2"
-	"github.com/stellar/go/support/errors"
-	strtime "github.com/stellar/go/support/time"
-	"github.com/stellar/go/toid"
+	"github.com/pownieh/stellar_go/support/errors"
+	strtime "github.com/pownieh/stellar_go/support/time"
+	"github.com/pownieh/stellar_go/toid"
 )
 
 // AllowedResolutions is the set of trade aggregation time windows allowed to be used as the

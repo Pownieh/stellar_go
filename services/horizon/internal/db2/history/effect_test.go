@@ -7,10 +7,10 @@ import (
 
 	"github.com/guregu/null"
 
+	"github.com/pownieh/stellar_go/protocols/horizon/effects"
 	"github.com/pownieh/stellar_go/services/horizon/internal/db2"
 	"github.com/pownieh/stellar_go/services/horizon/internal/test"
-	"github.com/stellar/go/protocols/horizon/effects"
-	"github.com/stellar/go/toid"
+	"github.com/pownieh/stellar_go/toid"
 )
 
 func TestEffectsForLiquidityPool(t *testing.T) {

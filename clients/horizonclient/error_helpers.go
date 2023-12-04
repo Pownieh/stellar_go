@@ -1,6 +1,6 @@
 package horizonclient
 
-import "github.com/stellar/go/support/errors"
+import "github.com/pownieh/stellar_go/support/errors"
 
 // IsNotFoundError returns true if the error is a horizonclient.Error with
 // a not_found problem indicating that the resource is not found on
