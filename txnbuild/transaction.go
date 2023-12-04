@@ -291,6 +291,10 @@ func (t *Transaction) clone(signatures []xdr.DecoratedSignature) *Transaction {
 	return newTx
 }
 
+func (t *Transaction) GetEnvelope() xdr.TransactionEnvelope {
+	return t.envelope
+}
+
 // Sign returns a new Transaction instance which extends the current instance
 // with additional signatures derived from the given list of keypair instances.
 func (t *Transaction) Sign(network string, kps ...*keypair.Full) (*Transaction, error) {
