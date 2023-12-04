@@ -3,8 +3,8 @@ package reap
 import (
 	"testing"
 
-	"github.com/stellar/go/services/horizon/internal/ledger"
-	"github.com/stellar/go/services/horizon/internal/test"
+	"github.com/pownieh/stellar_go/services/horizon/internal/ledger"
+	"github.com/pownieh/stellar_go/services/horizon/internal/test"
 )
 
 func TestDeleteUnretainedHistory(t *testing.T) {

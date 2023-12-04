@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
+	"github.com/pownieh/stellar_go/services/horizon/internal/test"
 	"github.com/stellar/go/keypair"
-	"github.com/stellar/go/services/horizon/internal/test"
 )
 
 func TestAccountLoader(t *testing.T) {

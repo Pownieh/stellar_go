@@ -6,9 +6,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/pownieh/stellar_go/exp/services/recoverysigner/internal/account"
+	"github.com/pownieh/stellar_go/exp/services/recoverysigner/internal/db/dbtest"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/stellar/go/exp/services/recoverysigner/internal/account"
-	"github.com/stellar/go/exp/services/recoverysigner/internal/db/dbtest"
 	supportlog "github.com/stellar/go/support/log"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

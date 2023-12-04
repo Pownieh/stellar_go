@@ -16,7 +16,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stellar/go/services/horizon/internal/test"
+	"github.com/pownieh/stellar_go/services/horizon/internal/test"
 
 	"github.com/2opremio/pretty"
 	"github.com/creachadair/jrpc2"
@@ -27,13 +27,13 @@ import (
 
 	"github.com/stellar/go/support/config"
 
+	horizon "github.com/pownieh/stellar_go/services/horizon/internal"
+	"github.com/pownieh/stellar_go/services/horizon/internal/ingest"
 	sdk "github.com/stellar/go/clients/horizonclient"
 	"github.com/stellar/go/clients/stellarcore"
 	"github.com/stellar/go/ingest/ledgerbackend"
 	"github.com/stellar/go/keypair"
 	proto "github.com/stellar/go/protocols/horizon"
-	horizon "github.com/stellar/go/services/horizon/internal"
-	"github.com/stellar/go/services/horizon/internal/ingest"
 	"github.com/stellar/go/support/db/dbtest"
 	"github.com/stellar/go/support/errors"
 	"github.com/stellar/go/txnbuild"

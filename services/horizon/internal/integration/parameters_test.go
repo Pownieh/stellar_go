@@ -14,13 +14,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/pownieh/stellar_go/services/horizon/internal/paths"
+	"github.com/pownieh/stellar_go/services/horizon/internal/simplepath"
 	"github.com/spf13/cobra"
-	"github.com/stellar/go/services/horizon/internal/paths"
-	"github.com/stellar/go/services/horizon/internal/simplepath"
 
+	horizon "github.com/pownieh/stellar_go/services/horizon/internal"
+	"github.com/pownieh/stellar_go/services/horizon/internal/test/integration"
 	horizoncmd "github.com/stellar/go/services/horizon/cmd"
-	horizon "github.com/stellar/go/services/horizon/internal"
-	"github.com/stellar/go/services/horizon/internal/test/integration"
 
 	"github.com/stretchr/testify/assert"
 )

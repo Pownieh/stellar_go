@@ -10,8 +10,8 @@ import (
 
 	"github.com/go-chi/chi"
 
-	"github.com/stellar/go/services/ticker/internal/gql"
-	"github.com/stellar/go/services/ticker/internal/tickerdb/tickerdbtest"
+	"github.com/pownieh/stellar_go/services/ticker/internal/gql"
+	"github.com/pownieh/stellar_go/services/ticker/internal/tickerdb/tickerdbtest"
 	hlog "github.com/stellar/go/support/log"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

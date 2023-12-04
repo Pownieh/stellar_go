@@ -6,8 +6,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
+	"github.com/pownieh/stellar_go/services/horizon/internal/test/integration"
 	"github.com/stellar/go/clients/horizonclient"
-	"github.com/stellar/go/services/horizon/internal/test/integration"
 	"github.com/stellar/go/txnbuild"
 )
 

@@ -8,10 +8,10 @@ import (
 
 	firebaseauth "firebase.google.com/go/auth"
 	"github.com/go-chi/chi"
+	"github.com/pownieh/stellar_go/exp/services/recoverysigner/internal/account"
+	"github.com/pownieh/stellar_go/exp/services/recoverysigner/internal/db"
+	"github.com/pownieh/stellar_go/exp/services/recoverysigner/internal/serve/auth"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/stellar/go/exp/services/recoverysigner/internal/account"
-	"github.com/stellar/go/exp/services/recoverysigner/internal/db"
-	"github.com/stellar/go/exp/services/recoverysigner/internal/serve/auth"
 	"github.com/stellar/go/keypair"
 	"github.com/stellar/go/support/errors"
 	supporthttp "github.com/stellar/go/support/http"

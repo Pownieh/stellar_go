@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
+	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
 	"github.com/stellar/go/ingest"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
 	"github.com/stellar/go/xdr"
 )
 

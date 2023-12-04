@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"testing"
 
-	horizonContext "github.com/stellar/go/services/horizon/internal/context"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/services/horizon/internal/test"
+	horizonContext "github.com/pownieh/stellar_go/services/horizon/internal/context"
+	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
+	"github.com/pownieh/stellar_go/services/horizon/internal/test"
 	"github.com/stretchr/testify/assert"
 )
 

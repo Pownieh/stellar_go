@@ -2,9 +2,9 @@ package cmd
 
 import (
 	"github.com/lib/pq"
+	ticker "github.com/pownieh/stellar_go/services/ticker/internal"
+	"github.com/pownieh/stellar_go/services/ticker/internal/tickerdb"
 	"github.com/spf13/cobra"
-	ticker "github.com/stellar/go/services/ticker/internal"
-	"github.com/stellar/go/services/ticker/internal/tickerdb"
 )
 
 var ServerAddr string

@@ -10,13 +10,13 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
 
-	horizon "github.com/stellar/go/services/horizon/internal"
-	"github.com/stellar/go/services/horizon/internal/db2/schema"
-	"github.com/stellar/go/services/horizon/internal/ingest"
+	horizon "github.com/pownieh/stellar_go/services/horizon/internal"
+	"github.com/pownieh/stellar_go/services/horizon/internal/db2/schema"
+	"github.com/pownieh/stellar_go/services/horizon/internal/ingest"
 	support "github.com/stellar/go/support/config"
 	"github.com/stellar/go/support/db"
 	"github.com/stellar/go/support/errors"

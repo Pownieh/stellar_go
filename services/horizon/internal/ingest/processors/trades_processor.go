@@ -8,9 +8,9 @@ import (
 
 	"github.com/guregu/null"
 
+	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
 	"github.com/stellar/go/exp/orderbook"
 	"github.com/stellar/go/ingest"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
 	"github.com/stellar/go/support/db"
 	"github.com/stellar/go/support/errors"
 	"github.com/stellar/go/toid"

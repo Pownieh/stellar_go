@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/pownieh/stellar_go/services/ticker/internal/tickerdb"
 	migrate "github.com/rubenv/sql-migrate"
-	"github.com/stellar/go/services/ticker/internal/tickerdb"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

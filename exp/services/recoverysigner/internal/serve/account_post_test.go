@@ -10,9 +10,9 @@ import (
 	"testing"
 
 	"github.com/go-chi/chi"
-	"github.com/stellar/go/exp/services/recoverysigner/internal/account"
-	"github.com/stellar/go/exp/services/recoverysigner/internal/db/dbtest"
-	"github.com/stellar/go/exp/services/recoverysigner/internal/serve/auth"
+	"github.com/pownieh/stellar_go/exp/services/recoverysigner/internal/account"
+	"github.com/pownieh/stellar_go/exp/services/recoverysigner/internal/db/dbtest"
+	"github.com/pownieh/stellar_go/exp/services/recoverysigner/internal/serve/auth"
 	"github.com/stellar/go/keypair"
 	supportlog "github.com/stellar/go/support/log"
 	"github.com/stretchr/testify/assert"

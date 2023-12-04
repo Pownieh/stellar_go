@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/pownieh/stellar_go/services/horizon/internal/ingest/processors"
 	"github.com/stellar/go/ingest"
-	"github.com/stellar/go/services/horizon/internal/ingest/processors"
 	"github.com/stellar/go/support/db"
 	"github.com/stellar/go/support/errors"
 	"github.com/stellar/go/xdr"

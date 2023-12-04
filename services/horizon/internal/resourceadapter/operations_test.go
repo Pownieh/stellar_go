@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/guregu/null"
+	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
 	"github.com/stellar/go/protocols/horizon/operations"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
 	"github.com/stellar/go/support/test"
 	"github.com/stellar/go/xdr"
 	"github.com/stretchr/testify/assert"

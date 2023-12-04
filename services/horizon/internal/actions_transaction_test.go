@@ -7,11 +7,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
+	"github.com/pownieh/stellar_go/services/horizon/internal/corestate"
+	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
+	"github.com/pownieh/stellar_go/services/horizon/internal/ingest"
+	"github.com/pownieh/stellar_go/services/horizon/internal/test"
 	"github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/services/horizon/internal/corestate"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/services/horizon/internal/ingest"
-	"github.com/stellar/go/services/horizon/internal/test"
 	"github.com/stellar/go/xdr"
 )
 
@@ -235,7 +235,7 @@ func TestTransactionActions_Index(t *testing.T) {
 	w = ht.Get("/accounts/GCXKG6RN4ONIEPCMNFB732A436Z5PNDSRLGWK7GBLCMQLIFO4S7EYWVU/transactions?cursor=limit=order=")
 	ht.Assert.Equal(400, w.Code)
 
-	// regression: https://github.com/stellar/go/services/horizon/internal/issues/365
+	// regression: https://github.com/pownieh/stellar_go/services/horizon/internal/issues/365
 	w = ht.Get("/transactions?limit=200")
 	ht.Require.Equal(200, w.Code)
 	w = ht.Get("/transactions?limit=201")

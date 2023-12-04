@@ -14,9 +14,9 @@ import (
 
 	"github.com/stellar/throttled"
 
+	"github.com/pownieh/stellar_go/services/horizon/internal/db2/schema"
 	"github.com/stellar/go/ingest/ledgerbackend"
 	"github.com/stellar/go/network"
-	"github.com/stellar/go/services/horizon/internal/db2/schema"
 	apkg "github.com/stellar/go/support/app"
 	support "github.com/stellar/go/support/config"
 	"github.com/stellar/go/support/db"

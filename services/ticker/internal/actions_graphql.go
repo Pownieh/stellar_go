@@ -1,8 +1,8 @@
 package ticker
 
 import (
-	"github.com/stellar/go/services/ticker/internal/gql"
-	"github.com/stellar/go/services/ticker/internal/tickerdb"
+	"github.com/pownieh/stellar_go/services/ticker/internal/gql"
+	"github.com/pownieh/stellar_go/services/ticker/internal/tickerdb"
 	hlog "github.com/stellar/go/support/log"
 )
 

@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
+	"github.com/pownieh/stellar_go/services/ticker/internal/utils"
 	horizonclient "github.com/stellar/go/clients/horizonclient"
 	hProtocol "github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/services/ticker/internal/utils"
 	hlog "github.com/stellar/go/support/log"
 )
 

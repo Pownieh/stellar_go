@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/services/horizon/internal/ingest/processors"
+	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
+	"github.com/pownieh/stellar_go/services/horizon/internal/ingest/processors"
 	"github.com/stellar/go/support/log"
 )
 

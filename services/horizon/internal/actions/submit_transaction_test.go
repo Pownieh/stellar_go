@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/pownieh/stellar_go/services/horizon/internal/corestate"
+	hProblem "github.com/pownieh/stellar_go/services/horizon/internal/render/problem"
+	"github.com/pownieh/stellar_go/services/horizon/internal/txsub"
 	"github.com/stellar/go/network"
-	"github.com/stellar/go/services/horizon/internal/corestate"
-	hProblem "github.com/stellar/go/services/horizon/internal/render/problem"
-	"github.com/stellar/go/services/horizon/internal/txsub"
 	"github.com/stellar/go/support/render/problem"
 	"github.com/stellar/go/xdr"
 	"github.com/stretchr/testify/assert"

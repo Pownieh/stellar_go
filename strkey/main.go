@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/stellar/go/strkey/internal/crc16"
+	"github.com/pownieh/stellar_go/strkey/internal/crc16"
 	"github.com/stellar/go/support/errors"
 )
 

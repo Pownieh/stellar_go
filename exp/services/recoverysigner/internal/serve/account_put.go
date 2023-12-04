@@ -3,8 +3,8 @@ package serve
 import (
 	"net/http"
 
-	"github.com/stellar/go/exp/services/recoverysigner/internal/account"
-	"github.com/stellar/go/exp/services/recoverysigner/internal/serve/auth"
+	"github.com/pownieh/stellar_go/exp/services/recoverysigner/internal/account"
+	"github.com/pownieh/stellar_go/exp/services/recoverysigner/internal/serve/auth"
 	"github.com/stellar/go/keypair"
 	"github.com/stellar/go/support/errors"
 	"github.com/stellar/go/support/http/httpdecode"

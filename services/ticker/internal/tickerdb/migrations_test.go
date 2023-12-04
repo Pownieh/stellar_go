@@ -9,7 +9,7 @@ import (
 	assetfs "github.com/elazarl/go-bindata-assetfs"
 	"github.com/shurcooL/httpfs/filter"
 
-	bdata "github.com/stellar/go/services/ticker/internal/tickerdb/migrations"
+	bdata "github.com/pownieh/stellar_go/services/ticker/internal/tickerdb/migrations"
 	supportHttp "github.com/stellar/go/support/http"
 )
 

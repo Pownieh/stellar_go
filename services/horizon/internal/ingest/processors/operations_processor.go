@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"github.com/guregu/null"
 
+	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
 	"github.com/stellar/go/amount"
 	"github.com/stellar/go/ingest"
 	"github.com/stellar/go/protocols/horizon/base"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
 	"github.com/stellar/go/support/contractevents"
 	"github.com/stellar/go/support/db"
 	"github.com/stellar/go/support/errors"

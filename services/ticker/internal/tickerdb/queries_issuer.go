@@ -4,7 +4,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/stellar/go/services/ticker/internal/utils"
+	"github.com/pownieh/stellar_go/services/ticker/internal/utils"
 )
 
 // InsertOrUpdateIssuer inserts an Issuer on the database (if new),

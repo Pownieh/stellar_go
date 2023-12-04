@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/pownieh/stellar_go/services/ticker/internal/scraper"
+	"github.com/pownieh/stellar_go/services/ticker/internal/tickerdb"
 	horizonclient "github.com/stellar/go/clients/horizonclient"
 	hProtocol "github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/services/ticker/internal/scraper"
-	"github.com/stellar/go/services/ticker/internal/tickerdb"
 	hlog "github.com/stellar/go/support/log"
 )
 

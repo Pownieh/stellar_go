@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/pownieh/stellar_go/services/ticker/internal/scraper"
+	"github.com/pownieh/stellar_go/services/ticker/internal/tickerdb"
+	"github.com/pownieh/stellar_go/services/ticker/internal/utils"
 	horizonclient "github.com/stellar/go/clients/horizonclient"
-	"github.com/stellar/go/services/ticker/internal/scraper"
-	"github.com/stellar/go/services/ticker/internal/tickerdb"
-	"github.com/stellar/go/services/ticker/internal/utils"
 	hlog "github.com/stellar/go/support/log"
 )
 

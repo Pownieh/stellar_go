@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stellar/go/services/horizon/internal/db2"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/services/horizon/internal/test/integration"
+	"github.com/pownieh/stellar_go/services/horizon/internal/db2"
+	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
+	"github.com/pownieh/stellar_go/services/horizon/internal/test/integration"
 	strtime "github.com/stellar/go/support/time"
 	"github.com/stellar/go/xdr"
 	"github.com/stretchr/testify/assert"

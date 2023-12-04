@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/stellar/go/services/horizon/internal/db2/history"
+	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
 	"github.com/stellar/go/support/errors"
 	logpkg "github.com/stellar/go/support/log"
 )

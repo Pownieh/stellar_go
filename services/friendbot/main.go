@@ -7,8 +7,8 @@ import (
 	"os"
 
 	"github.com/go-chi/chi"
+	"github.com/pownieh/stellar_go/services/friendbot/internal"
 	"github.com/spf13/cobra"
-	"github.com/stellar/go/services/friendbot/internal"
 	"github.com/stellar/go/support/app"
 	"github.com/stellar/go/support/config"
 	"github.com/stellar/go/support/errors"

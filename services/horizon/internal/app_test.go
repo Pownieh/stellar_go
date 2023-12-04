@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/pownieh/stellar_go/services/horizon/internal/test"
 	"github.com/prometheus/client_golang/prometheus"
 	dto "github.com/prometheus/client_model/go"
-	"github.com/stellar/go/services/horizon/internal/test"
 )
 
 func TestGenericHTTPFeatures(t *testing.T) {

@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/guregu/null"
-	"github.com/stellar/go/services/horizon/internal/db2"
-	"github.com/stellar/go/services/horizon/internal/test"
+	"github.com/pownieh/stellar_go/services/horizon/internal/db2"
+	"github.com/pownieh/stellar_go/services/horizon/internal/test"
 )
 
 func TestQueryEmptyAccountSigners(t *testing.T) {

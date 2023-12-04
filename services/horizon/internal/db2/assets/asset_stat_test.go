@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/stellar/go/services/horizon/internal/db2"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/services/horizon/internal/test"
+	"github.com/pownieh/stellar_go/services/horizon/internal/db2"
+	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
+	"github.com/pownieh/stellar_go/services/horizon/internal/test"
 )
 
 // AssetStatsR is the result from the AssetStatsQ query

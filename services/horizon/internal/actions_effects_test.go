@@ -3,10 +3,10 @@ package horizon
 import (
 	"testing"
 
+	"github.com/pownieh/stellar_go/services/horizon/internal/db2/history"
+	"github.com/pownieh/stellar_go/services/horizon/internal/ingest"
+	"github.com/pownieh/stellar_go/services/horizon/internal/test"
 	"github.com/stellar/go/protocols/horizon/effects"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/services/horizon/internal/ingest"
-	"github.com/stellar/go/services/horizon/internal/test"
 )
 
 func TestEffectActions_Index(t *testing.T) {
@@ -21,7 +21,7 @@ func TestEffectActions_Index(t *testing.T) {
 			ht.Assert.PageOf(11, w.Body)
 		}
 
-		// test streaming, regression for https://github.com/stellar/go/services/horizon/internal/issues/147
+		// test streaming, regression for https://github.com/pownieh/stellar_go/services/horizon/internal/issues/147
 		w = ht.Get("/effects?limit=2", test.RequestHelperStreaming)
 		ht.Assert.Equal(200, w.Code)
 

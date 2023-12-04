@@ -4,8 +4,8 @@ import (
 	"time"
 
 	"github.com/jmoiron/sqlx"
+	bdata "github.com/pownieh/stellar_go/services/ticker/internal/tickerdb/migrations"
 	migrate "github.com/rubenv/sql-migrate"
-	bdata "github.com/stellar/go/services/ticker/internal/tickerdb/migrations"
 	"github.com/stellar/go/support/db"
 )
 

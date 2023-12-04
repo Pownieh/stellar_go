@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/pownieh/stellar_go/services/regulated-assets-approval-server/internal/db"
+	"github.com/pownieh/stellar_go/services/regulated-assets-approval-server/internal/db/dbmigrate"
 	migrate "github.com/rubenv/sql-migrate"
 	"github.com/spf13/cobra"
-	"github.com/stellar/go/services/regulated-assets-approval-server/internal/db"
-	"github.com/stellar/go/services/regulated-assets-approval-server/internal/db/dbmigrate"
 	"github.com/stellar/go/support/config"
 	"github.com/stellar/go/support/log"
 )

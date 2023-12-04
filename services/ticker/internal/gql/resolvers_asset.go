@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/stellar/go/services/ticker/internal/tickerdb"
+	"github.com/pownieh/stellar_go/services/ticker/internal/tickerdb"
 )
 
 // Assets resolves the assets() GraphQL query.

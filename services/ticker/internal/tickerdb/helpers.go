@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/stellar/go/services/ticker/internal/utils"
+	"github.com/pownieh/stellar_go/services/ticker/internal/utils"
 	"github.com/stellar/go/support/db/dbtest"
 )
 

@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/guregu/null"
-	"github.com/stellar/go/services/horizon/internal/test"
+	"github.com/pownieh/stellar_go/services/horizon/internal/test"
 	"github.com/stretchr/testify/assert"
 )
 

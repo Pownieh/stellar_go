@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	herrors "github.com/stellar/go/services/horizon/internal/errors"
+	herrors "github.com/pownieh/stellar_go/services/horizon/internal/errors"
 	"github.com/stellar/go/support/errors"
 	"github.com/stellar/go/support/log"
 	"github.com/stellar/go/toid"

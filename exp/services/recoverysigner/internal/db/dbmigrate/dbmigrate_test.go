@@ -7,10 +7,10 @@ import (
 	"testing"
 
 	assetfs "github.com/elazarl/go-bindata-assetfs"
+	dbpkg "github.com/pownieh/stellar_go/exp/services/recoverysigner/internal/db"
+	"github.com/pownieh/stellar_go/exp/services/recoverysigner/internal/db/dbtest"
 	migrate "github.com/rubenv/sql-migrate"
 	"github.com/shurcooL/httpfs/filter"
-	dbpkg "github.com/stellar/go/exp/services/recoverysigner/internal/db"
-	"github.com/stellar/go/exp/services/recoverysigner/internal/db/dbtest"
 	supportHttp "github.com/stellar/go/support/http"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stellar/go/services/regulated-assets-approval-server/internal/db/dbtest"
-	"github.com/stellar/go/services/regulated-assets-approval-server/internal/serve/httperror"
+	"github.com/pownieh/stellar_go/services/regulated-assets-approval-server/internal/db/dbtest"
+	"github.com/pownieh/stellar_go/services/regulated-assets-approval-server/internal/serve/httperror"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

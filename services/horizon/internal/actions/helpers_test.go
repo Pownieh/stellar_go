@@ -12,10 +12,10 @@ import (
 	"github.com/go-chi/chi"
 	"github.com/stretchr/testify/assert"
 
-	horizonContext "github.com/stellar/go/services/horizon/internal/context"
-	"github.com/stellar/go/services/horizon/internal/db2"
-	"github.com/stellar/go/services/horizon/internal/ledger"
-	"github.com/stellar/go/services/horizon/internal/test"
+	horizonContext "github.com/pownieh/stellar_go/services/horizon/internal/context"
+	"github.com/pownieh/stellar_go/services/horizon/internal/db2"
+	"github.com/pownieh/stellar_go/services/horizon/internal/ledger"
+	"github.com/pownieh/stellar_go/services/horizon/internal/test"
 	"github.com/stellar/go/support/db"
 	"github.com/stellar/go/support/errors"
 	"github.com/stellar/go/support/render/problem"
@@ -256,7 +256,7 @@ func TestActionGetPageQuery(t *testing.T) {
 	_, err = GetPageQuery(ledgerState, r)
 	tt.Assert.Error(err)
 
-	// regression: https://github.com/stellar/go/services/horizon/internal/issues/372
+	// regression: https://github.com/pownieh/stellar_go/services/horizon/internal/issues/372
 	// (limit of 0 turns into 10)
 	makeTestActionRequest("/?limit=0", nil)
 	_, err = GetPageQuery(ledgerState, r)
@@ -283,7 +283,7 @@ func TestGetPageQuery(t *testing.T) {
 	_, err = GetPageQuery(ledgerState, r)
 	tt.Assert.Error(err)
 
-	// regression: https://github.com/stellar/go/services/horizon/internal/issues/372
+	// regression: https://github.com/pownieh/stellar_go/services/horizon/internal/issues/372
 	// (limit of 0 turns into 10)
 	r = makeTestActionRequest("/?limit=0", nil)
 	_, err = GetPageQuery(ledgerState, r)

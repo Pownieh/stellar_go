@@ -2,7 +2,7 @@ package assets
 
 import (
 	sq "github.com/Masterminds/squirrel"
-	"github.com/stellar/go/services/horizon/internal/db2"
+	"github.com/pownieh/stellar_go/services/horizon/internal/db2"
 )
 
 // PagingToken implementation for hal.Pageable
