@@ -4,6 +4,7 @@ go 1.21.4
 
 require (
 	firebase.google.com/go v3.13.0+incompatible
+	github.com/2opremio/pretty v0.2.2-0.20230601220618-e1d5758b2a95
 	github.com/BurntSushi/toml v1.3.2
 	github.com/Masterminds/squirrel v1.5.4
 	github.com/Microsoft/go-winio v0.6.1
@@ -25,7 +26,6 @@ require (
 	github.com/howeyc/gopass v0.0.0-20210920133722-c8aef6fb66ef
 	github.com/jarcoal/httpmock v1.3.1
 	github.com/jmoiron/sqlx v1.3.5
-	github.com/kr/pretty v0.3.1
 	github.com/lib/pq v1.10.9
 	github.com/manucorporat/sse v0.0.0-20160126180136-ee05b128a739
 	github.com/mitchellh/go-homedir v1.1.0
@@ -65,7 +65,6 @@ require (
 	cloud.google.com/go/iam v1.1.5 // indirect
 	cloud.google.com/go/longrunning v0.5.4 // indirect
 	cloud.google.com/go/storage v1.30.1 // indirect
-	github.com/2opremio/pretty v0.2.2-0.20230601220618-e1d5758b2a95 // indirect
 	github.com/ajg/form v0.0.0-20160822230020-523a5da1a92f // indirect
 	github.com/andybalholm/brotli v1.0.4 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
