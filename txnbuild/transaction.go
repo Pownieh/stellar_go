@@ -292,6 +292,7 @@ func (t *Transaction) clone(signatures []xdr.DecoratedSignature) *Transaction {
 }
 
 func (t *Transaction) GetEnvelope() xdr.TransactionEnvelope {
+
 	return t.envelope
 }
 
