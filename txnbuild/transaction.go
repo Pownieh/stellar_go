@@ -291,9 +291,8 @@ func (t *Transaction) clone(signatures []xdr.DecoratedSignature) *Transaction {
 	return newTx
 }
 
-func (t *Transaction) GetEnvelope() xdr.TransactionEnvelope {
-
-	return t.envelope
+func (t *Transaction) GetEnvelope() *xdr.TransactionEnvelope {
+	return &t.envelope
 }
 
 func (t *Transaction) SetEnvelope(env xdr.TransactionEnvelope) {
