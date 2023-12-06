@@ -1,6 +1,6 @@
 module github.com/pownieh/stellar_go
 
-go 1.21.4
+go 1.21.3
 
 require (
 	firebase.google.com/go v3.13.0+incompatible
